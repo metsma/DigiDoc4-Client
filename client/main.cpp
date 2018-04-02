@@ -24,8 +24,19 @@
 #include <QtCore/qt_windows.h>
 #endif
 
+#define QT_NO_QML
+#define QT_NO_SAMPLES
+#include <Headers.h>
+
 int main( int argc, char *argv[] )
 {
+	// Start webdriver
+	int startError = wd_setup(argc, argv);
+	if (startError){
+		std::cout << "Error while starting server, errorCode " << startError << std::endl;
+		return startError;
+	}
+
 #if QT_VERSION > QT_VERSION_CHECK(5, 6, 0)
 	QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 #ifdef Q_OS_WIN32

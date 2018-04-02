@@ -36,6 +36,13 @@ elseif( WIN32 )
 	list( APPEND SOURCES CertStore.cpp )
 endif()
 
+include_directories( /Users/zomps/Projects/qtwebdriver/src/Test /Users/zomps/Projects/qtwebdriver/inc )
+list( APPEND ADDITIONAL_LIBRARIES
+	/tmp/base.dst/usr/local/lib/libchromium_base.a
+	/tmp/wd_core.dst/usr/local/lib/libWebDriver_core.a
+	/tmp/wd_ext_qt.dst/usr/local/lib/libWebDriver_extension_qt_base.a
+)
+
 add_executable( ${PROGNAME} WIN32 MACOSX_BUNDLE
 	${PROGNAME}.rc
 	${SOURCES}
