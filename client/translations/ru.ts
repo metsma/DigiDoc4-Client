@@ -1613,30 +1613,6 @@ ID-КАРТОЙ</translation>
         <translation>Подписывание</translation>
     </message>
     <message>
-        <source>Request accepted</source>
-        <translation>Запрос принят</translation>
-    </message>
-    <message>
-        <source>Request timeout</source>
-        <translation>Время запроса истекло</translation>
-    </message>
-    <message>
-        <source>User denied or cancelled</source>
-        <translation>Пользователю отказано</translation>
-    </message>
-    <message>
-        <source>Got signature</source>
-        <translation>Подпись получена</translation>
-    </message>
-    <message>
-        <source>Request pending</source>
-        <translation>Запрос в ожидании</translation>
-    </message>
-    <message>
-        <source>Mobile-ID not ready, try again later</source>
-        <translation>Mobiil-ID не готов, попробуйте позже</translation>
-    </message>
-    <message>
         <source>Phone absent</source>
         <translation>Нет телефона</translation>
     </message>
@@ -1649,40 +1625,12 @@ ID-КАРТОЙ</translation>
         <translation>Ошибка SIM карты</translation>
     </message>
     <message>
-        <source>Service internal error</source>
-        <translation>Внутренняя ошибка услуги</translation>
-    </message>
-    <message>
-        <source>Not allowed to use OCSP service! Please check your server access certificate.</source>
-        <translation>Не разрешено использовать OCSP услугу!&lt;br/&gt;Пожалуйста проверьте действительность сертификата доступа.</translation>
-    </message>
-    <message>
         <source>Connecting to SK server failed! Please check your internet connection.</source>
         <translation>Ошибка при подключении с SK сервером&lt;br/&gt;Пожалуйста проверьте подключение к интернету.</translation>
     </message>
     <message>
-        <source>Invalid phone number! Please include correct country code.</source>
-        <translation>Ошибка! Номер телефона должен содержать код страны.</translation>
-    </message>
-    <message>
         <source>User is not a Mobile-ID client</source>
         <translation>Пользователь не является клиентом Mobiil-ID</translation>
-    </message>
-    <message>
-        <source>ID and phone number do not match</source>
-        <translation>Личный код и номер телефона не совпадают</translation>
-    </message>
-    <message>
-        <source>Your Mobile-ID service is not activated.</source>
-        <translation>Не активирована услуга Mobiil-ID.</translation>
-    </message>
-    <message>
-        <source>Mobile-ID user certificates are revoked or suspended.</source>
-        <translation>Сертификаты Mobiil-ID признаны не действительными или их действие приостановлено.</translation>
-    </message>
-    <message>
-        <source>Invalid content</source>
-        <translation>Недопустимый контент</translation>
     </message>
     <message>
         <source>Make sure control code matches with one in phone screen
@@ -1691,10 +1639,6 @@ Control code: %1</source>
         <translation>Убедитесь в правильности контрольного кодa
 и введите PIN2-код для Mobiil-ID.
 Kонтрольный код: %1</translation>
-    </message>
-    <message>
-        <source>SSL Error:</source>
-        <translation>SSL Ошибка:</translation>
     </message>
     <message>
         <source>SSL handshake failed. Check the proxy settings of your computer or software upgrades.</source>
@@ -1709,16 +1653,8 @@ Kонтрольный код: %1</translation>
         <translation>Подписывается с Mobiil-ID</translation>
     </message>
     <message>
-        <source>Sign</source>
-        <translation>Подписать</translation>
-    </message>
-    <message>
         <source>Failed to sign container</source>
         <translation>Не удается подписать контейнер</translation>
-    </message>
-    <message>
-        <source>Your Mobile-ID certificates are not activated</source>
-        <translation>Сертификаты Mobiil-ID не активированы</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1728,6 +1664,34 @@ Kонтрольный код: %1</translation>
     <message>
         <source>Mobile-ID service has encountered technical errors. Please try again later.</source>
         <translation>Технический сбой услуги Mobiil-ID. Пожалуйста, попробуйте позже.</translation>
+    </message>
+    <message>
+        <source>Failed to send request </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid content type header </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to parse JSON content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to parse certificate: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Service result:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Account not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The limit for digital signatures per month has been reached for this IP address. &lt;a href=&quot;https://www.id.ee/index.php?id=39023&quot;Additional information&lt;/a&gt;</source>
+        <translation>Предел для цифровых подписей в месяц был достигнут для этого IP-адреса. &lt;a href=&quot;https://www.id.ee/index.php?id=39025&quot;&gt;Дополнительная информация&lt;/a&gt;</translation>
     </message>
 </context>
 <context>

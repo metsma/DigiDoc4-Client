@@ -123,6 +123,8 @@ target_link_libraries( ${PROGNAME}
 	${LDAP_LIBRARIES}
 )
 
+target_compile_definitions(${PROGNAME} PRIVATE MOBILEID_URL="${MOBILEID_URL}")
+
 if( APPLE )
 	target_sources( ${PROGNAME} PRIVATE Application_mac.mm dialogs/CertificateDetails_mac.mm )
 	set_source_files_properties( Application_mac.mm dialogs/CertificateDetails_mac.mm PROPERTIES COMPILE_FLAGS "-fobjc-arc" )
