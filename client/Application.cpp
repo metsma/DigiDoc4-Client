@@ -566,8 +566,12 @@ bool Application::event( QEvent *e )
 			parseArgs();
 		return true;
 	case QEvent::FileOpen:
-		parseArgs( QStringList() << static_cast<QFileOpenEvent*>(e)->file() );
-		return true;
+		if(QFileOpenEvent *f = static_cast<QFileOpenEvent*>(e))
+		{
+			parseArgs({f->file().isEmpty() ? f->url().toString() : f->file()});
+			return true;
+		}
+		return Common::event( e );
 #ifdef Q_OS_MAC
 	// Load here because cocoa NSApplication overides events
 	case QEvent::ApplicationActivate:
@@ -811,6 +815,15 @@ void Application::parseArgs( const QStringList &args )
 	params.removeAll(QStringLiteral("-cng"));
 	params.removeAll(QStringLiteral("-pkcs11"));
 	params.removeAll(QStringLiteral("-noNativeFileDialog"));
+	if(!params.isEmpty() && params[0].startsWith(QStringLiteral("smartidconf")))
+	{
+		QUrl u(params[0]);
+		QUrlQuery q(u);
+		Settings s(qApp->applicationName());
+		s.setValueEx(QStringLiteral("SmartIDName"), q.queryItemValue(QStringLiteral("RPNAME")), QString());
+		s.setValueEx(QStringLiteral("SmartIDUUID"), q.queryItemValue(QStringLiteral("RPUUID")), QString());
+		params.removeAt(0);
+	}
 
 	QString suffix = params.size() == 1 ? QFileInfo(params.value(0)).suffix() : QString();
 	showClient(params, crypto || (suffix.compare(QStringLiteral("cdoc"), Qt::CaseInsensitive) == 0), sign);

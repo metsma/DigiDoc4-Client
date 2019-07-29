@@ -297,5 +297,16 @@
 			</dict>
 		</dict>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Smart-ID configuration</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>smartidconf</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

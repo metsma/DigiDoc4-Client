@@ -108,6 +108,10 @@ SettingsDialog::SettingsDialog(QWidget *parent, QString appletVersion)
 	ui->chkShowPrintSummary->setFont(regularFont);
 	ui->chkRoleAddressInfo->setFont(regularFont);
 
+	ui->smartidURLLabel->setFont(regularFont);
+	ui->smartidNameLabel->setFont(regularFont);
+	ui->smartidUUIDLabel->setFont(regularFont);
+
 	// pageAccessSert
 	ui->lblRevocation->setFont(headerFont);
 	ui->lblAccessCert->setFont(regularFont);
@@ -240,6 +244,20 @@ SettingsDialog::SettingsDialog(QWidget *parent, QString appletVersion)
 	connect( ui->btnMenuProxy, &QPushButton::clicked, this, [this]{ changePage(ui->btnMenuProxy); ui->stackedWidget->setCurrentIndex(NetworkSettings); } );
 	connect( ui->btnMenuDiagnostics, &QPushButton::clicked, this, [this]{ changePage(ui->btnMenuDiagnostics); ui->stackedWidget->setCurrentIndex(DiagnosticsSettings); } );
 	connect( ui->btnMenuInfo, &QPushButton::clicked, this, [this]{ changePage(ui->btnMenuInfo); ui->stackedWidget->setCurrentIndex(LicenseSettings); } );
+
+	Settings s(qApp->applicationName());
+	ui->smartidURL->setText(s.value(QStringLiteral("SmartIDURL"), QStringLiteral(SMARTID_URL)).toString());
+	ui->smartidName->setText(s.value(QStringLiteral("SmartIDNAME"), QStringLiteral("DEMO")).toString());
+	ui->smartidUUID->setText(s.value(QStringLiteral("SmartIDUUID"), QStringLiteral("00000000-0000-0000-0000-000000000000")).toString());
+	connect(ui->smartidURL, &QLineEdit::textChanged, this, [](const QString &text) {
+		Settings(qApp->applicationName()).setValueEx(QStringLiteral("SmartIDURL"), text, QStringLiteral(SMARTID_URL));
+	});
+	connect(ui->smartidName, &QLineEdit::textChanged, this, [](const QString &text) {
+		Settings(qApp->applicationName()).setValueEx(QStringLiteral("SmartIDNAME"), text, QString());
+	});
+	connect(ui->smartidUUID, &QLineEdit::textChanged, this, [](const QString &text) {
+		Settings(qApp->applicationName()).setValueEx(QStringLiteral("SmartIDUUID"), text, QString());
+	});
 
 	connect( this, &SettingsDialog::finished, this, &SettingsDialog::save );
 	connect( this, &SettingsDialog::finished, this, []{ QApplication::restoreOverrideCursor(); } );

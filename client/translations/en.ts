@@ -2615,6 +2615,18 @@ Additional licenses and components</translation>
         <source>Redundant certificates have been successfully removed.</source>
         <translation>Redundant certificates have been successfully removed.</translation>
     </message>
+    <message>
+        <source>SmartID URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SmartID Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SmartID UUID</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SignatureDialog</name>

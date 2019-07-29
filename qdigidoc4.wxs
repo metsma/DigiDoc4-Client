@@ -117,6 +117,16 @@ msiexec /a libdigidocpp-3.13.8.1378.msi /qn TARGETDIR=C:\target
                 <Verb Id="open" TargetFile="qdigidoc4.exe" Command="Open" Argument='"%1"' />
               </Extension>
             </ProgId>
+            <RegistryKey Root="HKCR" Key="smartidconf" Action="createAndRemoveOnUninstall">
+              <RegistryValue Type="string" Value="URL:smartidconf Protocol"/>
+              <RegistryValue Type="string" Name="URL Protocol" Value=""/>
+              <RegistryKey Key="DefaultIcon">
+                <RegistryValue Type="string" Value="[APPLICATIONFOLDER]qdigidoc4.exe" />
+              </RegistryKey>
+              <RegistryKey Key="shell\open\command">
+                <RegistryValue Type="string" Value="&quot;[APPLICATIONFOLDER]qdigidoc4.exe&quot; &quot;%1&quot;" />
+              </RegistryKey>
+            </RegistryKey>
           </Component>
           <Component Id="Base" Guid="6976e89e-e815-444a-9b1f-5ee63cfe230d">
             <File Source="$(var.libs_path)\zlib1.dll"/>

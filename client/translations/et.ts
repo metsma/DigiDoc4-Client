@@ -2615,6 +2615,18 @@ Täiendavad litsentsid ja komponendid</translation>
         <source>Redundant certificates have been successfully removed.</source>
         <translation>Üleliigsed sertifikaadid edukalt eemaldatud.</translation>
     </message>
+    <message>
+        <source>SmartID URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SmartID Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SmartID UUID</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SignatureDialog</name>
