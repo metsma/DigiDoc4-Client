@@ -1215,6 +1215,11 @@ LDAP сервер недоступен.</translation>
 MOBIIL-ID</translation>
     </message>
     <message>
+        <source>SignatureSmartID</source>
+        <translation>ПОДПИСАТЬ С
+SMARTID</translation>
+    </message>
+    <message>
         <source>SignatureAdd</source>
         <translation>ПОДПИСАТЬ С
 ID-КАРТОЙ</translation>
@@ -1662,8 +1667,8 @@ Kонтрольный код: %1</translation>
         <translation>Отмена</translation>
     </message>
     <message>
-        <source>Mobile-ID service has encountered technical errors. Please try again later.</source>
-        <translation>Технический сбой услуги Mobiil-ID. Пожалуйста, попробуйте позже.</translation>
+        <source>%1 service has encountered technical errors. Please try again later.</source>
+        <translation>Технический сбой услуги %1. Пожалуйста, попробуйте позже.</translation>
     </message>
     <message>
         <source>Failed to send request </source>
@@ -1692,6 +1697,18 @@ Kонтрольный код: %1</translation>
     <message>
         <source>The limit for digital signatures per month has been reached for this IP address. &lt;a href=&quot;https://www.id.ee/index.php?id=39023&quot;Additional information&lt;/a&gt;</source>
         <translation>Предел для цифровых подписей в месяц был достигнут для этого IP-адреса. &lt;a href=&quot;https://www.id.ee/index.php?id=39025&quot;&gt;Дополнительная информация&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Mobile-ID</source>
+        <translation>Mobiil-ID</translation>
+    </message>
+    <message>
+        <source>Smart-ID</source>
+        <translation>Smart-ID</translation>
+    </message>
+    <message>
+        <source>Service result: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2890,6 +2907,21 @@ Additional licenses and components</source>
         <source>To view signature details press enter or space</source>
         <extracomment>accessible</extracomment>
         <translation>Для просмотра деталей подписи нажмите пробел или enter</translation>
+    </message>
+</context>
+<context>
+    <name>SmartIDDialog</name>
+    <message>
+        <source>SIGN</source>
+        <translation>ПОДПИСАТЬ</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ОТМЕНА</translation>
+    </message>
+    <message>
+        <source>Personal code</source>
+        <translation>ЛИЧНЫЙ КОД</translation>
     </message>
 </context>
 <context>

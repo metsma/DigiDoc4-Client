@@ -1213,6 +1213,11 @@ LDAP server is unavailable.</translation>
 MOBIIL-ID</translation>
     </message>
     <message>
+        <source>SignatureSmartID</source>
+        <translation>SIGN WITH
+SMARTID</translation>
+    </message>
+    <message>
         <source>SignatureAdd</source>
         <translation>SIGN WITH
 ID-CARD</translation>
@@ -1659,8 +1664,8 @@ Control code: %1</translation>
         <translation>Cancel</translation>
     </message>
     <message>
-        <source>Mobile-ID service has encountered technical errors. Please try again later.</source>
-        <translation>Mobile-ID service has encountered technical errors. Please try again later.</translation>
+        <source>%1 service has encountered technical errors. Please try again later.</source>
+        <translation>%1 service has encountered technical errors. Please try again later.</translation>
     </message>
     <message>
         <source>Failed to send request </source>
@@ -1689,6 +1694,18 @@ Control code: %1</translation>
     <message>
         <source>The limit for digital signatures per month has been reached for this IP address. &lt;a href=&quot;https://www.id.ee/index.php?id=39023&quot;Additional information&lt;/a&gt;</source>
         <translation>The limit for digital signatures per month has been reached for this IP address. &lt;a href=&quot;https://www.id.ee/index.php?id=39023&quot;Additional information&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Mobile-ID</source>
+        <translation>Mobile-ID</translation>
+    </message>
+    <message>
+        <source>Smart-ID</source>
+        <translation>Smart-ID</translation>
+    </message>
+    <message>
+        <source>Service result: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2887,6 +2904,21 @@ Additional licenses and components</translation>
         <source>To view signature details press enter or space</source>
         <extracomment>accessible</extracomment>
         <translation>To view signature details press enter or space</translation>
+    </message>
+</context>
+<context>
+    <name>SmartIDDialog</name>
+    <message>
+        <source>SIGN</source>
+        <translation>SIGN</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>CANCEL</translation>
+    </message>
+    <message>
+        <source>Personal code</source>
+        <translation>PERSONAL CODE</translation>
     </message>
 </context>
 <context>

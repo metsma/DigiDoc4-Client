@@ -1213,6 +1213,11 @@ LDAP serveriga ei saa ühendust.</translation>
 MOBIIL-ID’GA</translation>
     </message>
     <message>
+        <source>SignatureSmartID</source>
+        <translation>ALLKIRJASTA
+SMARTID’GA</translation>
+    </message>
+    <message>
         <source>SignatureAdd</source>
         <translation>ALLKIRJASTA
 ID-KAARDIGA</translation>
@@ -1659,8 +1664,8 @@ Kontrollkood: %1</translation>
         <translation>Katkesta</translation>
     </message>
     <message>
-        <source>Mobile-ID service has encountered technical errors. Please try again later.</source>
-        <translation>Mobiil-ID teenuses esinevad tehnilised tõrked. Palun proovige mõne aja pärast uuesti.</translation>
+        <source>%1 service has encountered technical errors. Please try again later.</source>
+        <translation>%1 teenuses esinevad tehnilised tõrked. Palun proovige mõne aja pärast uuesti.</translation>
     </message>
     <message>
         <source>Failed to send request </source>
@@ -1689,6 +1694,18 @@ Kontrollkood: %1</translation>
     <message>
         <source>The limit for digital signatures per month has been reached for this IP address. &lt;a href=&quot;https://www.id.ee/index.php?id=39023&quot;Additional information&lt;/a&gt;</source>
         <translation>Sinu IP-aadressi tasuta allkirjade kuulimiit on ületatud. &lt;a href=&quot;https://id.ee/index.php?id=39021&quot;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Mobile-ID</source>
+        <translation>Mobiil-ID</translation>
+    </message>
+    <message>
+        <source>Smart-ID</source>
+        <translation>Smart-ID</translation>
+    </message>
+    <message>
+        <source>Service result: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2887,6 +2904,21 @@ Täiendavad litsentsid ja komponendid</translation>
         <source>To view signature details press enter or space</source>
         <extracomment>accessible</extracomment>
         <translation>Allkirja detailide vaatamiseks vajuta space või enter</translation>
+    </message>
+</context>
+<context>
+    <name>SmartIDDialog</name>
+    <message>
+        <source>SIGN</source>
+        <translation>ALLKIRJASTA</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>KATKESTA</translation>
+    </message>
+    <message>
+        <source>Personal code</source>
+        <translation>ISIKUKOOD</translation>
     </message>
 </context>
 <context>
