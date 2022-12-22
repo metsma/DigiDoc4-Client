@@ -74,11 +74,11 @@
     </message>
     <message>
         <source>Personal code is not valid!</source>
-        <translation>Isikukood pole korrektne!</translation>
+        <translation>Päkapikk ületas kiirust!</translation>
     </message>
     <message>
         <source>Person or company does not own a valid certificate.&lt;br /&gt;It is necessary to have a valid certificate for encryption.&lt;br /&gt;&lt;a href=&apos;https://www.id.ee/en/article/encryption-and-decryption-of-documents/&apos;&gt;Read more about it&lt;/a&gt;.</source>
-        <translation>Isikul või asutusel puudub kehtiv sertifikaat.&lt;br /&gt;Krüpteerimiseks on vaja kehtivat sertifikaati.&lt;br /&gt;&lt;a href=&apos;https://www.id.ee/artikkel/dokumentide-krupteerimine-ja-dekrupteerimine/&apos;&gt;Loe täpsemalt siit&lt;/a&gt;.</translation>
+        <translation>Päkapikul või jõuluvanal puudub kehtiv töötõend.&lt;br /&gt;Kinkide pakkimiseks on vaja kehtivat Jõuluvana ja päkapikkude oranisatsiooni tõendit.&lt;br /&gt;&lt;a href=&apos;https://www.id.ee/artikkel/dokumentide-krupteerimine-ja-dekrupteerimine/&apos;&gt;Loe täpsemalt siit&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>Certificates (*.cer *.crt *.pem)</source>
@@ -86,15 +86,15 @@
     </message>
     <message>
         <source>Are you sure that you want use certificate for encrypting, which expired on %1?&lt;br /&gt;When decrypter has updated certificates then decrypting is impossible.</source>
-        <translation>Kas oled kindel, et soovid kasutada krüpteerimiseks sertifikaati, mis aegus %1?&lt;br /&gt;&lt;br /&gt;Juhul, kui dekrüpteerija on oma sertifikaate uuendanud, ei ole dekrüpteerimine võimalik.</translation>
+        <translation>Kas oled kindel, et soovid kasutada pakitud kingi peal kuivanud käpajälge, mis aegus %1?&lt;br /&gt;&lt;br /&gt;Juhul, kui dekrüpteerija on oma sertifikaate uuendanud, ei ole dekrüpteerimine võimalik.</translation>
     </message>
     <message>
         <source>YES</source>
-        <translation>JAH</translation>
+        <translation>Muidugi, mina olen käpp</translation>
     </message>
     <message>
         <source>NO</source>
-        <translation>EI</translation>
+        <translation>Ei ole kindel käpake väriseb</translation>
     </message>
     <message>
         <source>Recipient’s certification chain contains certificates that are not trusted. Continue with encryption?</source>
@@ -103,22 +103,22 @@
     <message>
         <source>Certificate from card</source>
         <extracomment>accessible</extracomment>
-        <translation>Lisa sertifikaat kaardilt</translation>
+        <translation>Lisa kingitus jõuluvana saanilt</translation>
     </message>
     <message>
         <source>Certificate from file</source>
         <extracomment>accessible</extracomment>
-        <translation>Lisa sertifikaat failist</translation>
+        <translation>Lisa kingitus kingisalvest</translation>
     </message>
     <message>
         <source>Latest used certificate</source>
         <extracomment>accessible</extracomment>
-        <translation>Viimati lisatud</translation>
+        <translation>Viimati lisatud kingid</translation>
     </message>
     <message>
         <source>Cancel</source>
         <extracomment>accessible</extracomment>
-        <translation>Katkesta</translation>
+        <translation>Katkesta jälje lisamine</translation>
     </message>
     <message>
         <source>Confirm</source>
@@ -134,11 +134,11 @@
     <name>AddressItem</name>
     <message>
         <source>ADD</source>
-        <translation>LISA</translation>
+        <translation>LISA KINK</translation>
     </message>
     <message>
         <source>ADDED</source>
-        <translation>LISATUD</translation>
+        <translation>LISATUD KINK</translation>
     </message>
     <message>
         <source> (Yourself)</source>
@@ -150,11 +150,11 @@
     </message>
     <message>
         <source>ID-card</source>
-        <translation>ID-kaart</translation>
+        <translation>Jõuluvana</translation>
     </message>
     <message>
         <source>mobile-ID</source>
-        <translation>mobiil-ID</translation>
+        <translation>mobiilne käpp</translation>
     </message>
     <message>
         <source>Expires on</source>
@@ -163,16 +163,16 @@
     <message>
         <source>Added</source>
         <extracomment>accessible</extracomment>
-        <translation>Lisatud</translation>
+        <translation>Lisatud kink</translation>
     </message>
     <message>
         <source>Add</source>
         <extracomment>accessible</extracomment>
-        <translation>Lisa</translation>
+        <translation>Lisa kink</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Eemalda</translation>
+        <translation>Eemalda kink</translation>
     </message>
     <message>
         <source>Certificate for Encryption</source>
@@ -199,11 +199,11 @@
     </message>
     <message>
         <source>Caught exception!</source>
-        <translation>Tekkis viga!</translation>
+        <translation>Lumesadu segab!</translation>
     </message>
     <message>
         <source>New Crypto window</source>
-        <translation>Ava uus Krüpto aken</translation>
+        <translation>Ava uus salakirja uks</translation>
     </message>
     <message>
         <source>The renewal of Trust Service status List, used for digital signature validation, has failed. Please check your internet connection and make sure you have the latest ID-software version installed. An expired Trust Service List (TSL) will be used for signature validation. &lt;a href=&quot;https://www.id.ee/en/article/digidoc4-message-updating-the-list-of-trusted-certificates-was-unsuccessful/&quot;&gt;Additional information&lt;/a&gt;</source>
@@ -215,11 +215,11 @@
     </message>
     <message>
         <source>Create %1</source>
-        <translation>Loo %1</translation>
+        <translation>Meisterda %1</translation>
     </message>
     <message>
         <source>Added file(s) exceeds the maximum size limit of the container(120MB).</source>
-        <translation>Lisatud fail(id) ületab turvaümbriku maksimaalset suurust (~120MB).</translation>
+        <translation>Lisatud kink(id) ületab kingikoti maksimaalset suurust (~200L).</translation>
     </message>
     <message>
         <source>Ignore forever</source>
@@ -227,19 +227,19 @@
     </message>
     <message>
         <source>Remind later</source>
-        <translation>Mitte praegu</translation>
+        <translation>Tuleta jõuluvanale hiljem meelde</translation>
     </message>
     <message>
         <source>DigiDoc4 Client Help</source>
-        <translation>DigiDoc4 klient abi</translation>
+        <translation>Pühadetervituse infonurk</translation>
     </message>
     <message>
         <source>Close Window</source>
-        <translation>Sulge aken</translation>
+        <translation>Toredat pühadeaega</translation>
     </message>
     <message>
         <source>New Window</source>
-        <translation>Ava uus aken</translation>
+        <translation>Ava uus uks</translation>
     </message>
     <message>
         <source>In order to authenticate and sign in e-services with an ID-card you need to install the web browser components.</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>Install</source>
-        <translation>Paigaldama</translation>
+        <translation>Asume päkapiku töökoda ehitama</translation>
     </message>
     <message>
         <source>https://www.id.ee/en/article/install-id-software/</source>
@@ -262,11 +262,11 @@
     </message>
     <message>
         <source>Cannot add empty file to the container.</source>
-        <translation>Tühja faili ei saa lisada ümbrikusse.</translation>
+        <translation>Tühja kingipakke ei saa lisada kingikotti.</translation>
     </message>
     <message>
         <source>Added file(s) exceeds the maximum size limit of the container (∼120MB). &lt;a href=&apos;https://www.id.ee/en/article/encrypting-large-120-mb-files/&apos;&gt;Read more about it&lt;/a&gt;</source>
-        <translation>Lisatud fail(id) ületab turvaümbriku maksimaalset suurust (~120MB). &lt;a href=&apos;https://www.id.ee/artikkel/suuremahuliste-120-mb-failide-krupteerimine/&apos;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
+        <translation>Lisatud kingipakk(id) ületab kingikoti maksimaalset suurust (~200L). &lt;a href=&apos;https://www.id.ee/artikkel/suuremahuliste-120-mb-failide-krupteerimine/&apos;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -277,7 +277,7 @@
     </message>
     <message>
         <source>ID-card</source>
-        <translation>ID-kaart</translation>
+        <translation>Jõuluvana</translation>
     </message>
     <message>
         <source>Digi-ID</source>
@@ -290,12 +290,12 @@
     <message>
         <source>Load picture</source>
         <extracomment>accessible</extracomment>
-        <translation>Laadi pilt</translation>
+        <translation>Laadi päkapiku pilt</translation>
     </message>
     <message>
         <source>Load</source>
         <extracomment>accessible</extracomment>
-        <translation>Laadi</translation>
+        <translation>Laadin kingikoormat</translation>
     </message>
     <message>
         <source>Certificate for Encryption</source>
@@ -303,7 +303,7 @@
     </message>
     <message>
         <source>Authentication certificate</source>
-        <translation>isikutuvastamise sertifikaat</translation>
+        <translation>Päkapiku jalanumber</translation>
     </message>
     <message>
         <source>%1 is selected</source>
@@ -326,35 +326,35 @@
     </message>
     <message>
         <source>CLOSE</source>
-        <translation>SULGE</translation>
+        <translation>Häid pühi!</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>SALVESTA</translation>
+        <translation>Pane tallele</translation>
     </message>
     <message>
         <source>This certificate is intended for following purpose(s):</source>
-        <translation>Selle sertifikaadi otstarve on:</translation>
+        <translation>Selle sertifikaadi otstarve on ka päkapikule mõistatuseks:</translation>
     </message>
     <message>
         <source>Issued to:</source>
-        <translation>Kellele väljastatud:</translation>
+        <translation>Ei usu, et sa oled:</translation>
     </message>
     <message>
         <source>Issued by:</source>
-        <translation>Väljastaja:</translation>
+        <translation>Nüüd usun:</translation>
     </message>
     <message>
         <source>Valid:</source>
-        <translation>Kehtiv:</translation>
+        <translation>Autentne:</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Alates</translation>
+        <translation>Alates jõuludest</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Kuni</translation>
+        <translation>Kuni uue aasta saabumiseni</translation>
     </message>
     <message>
         <source>Field</source>
@@ -426,28 +426,28 @@
     </message>
     <message>
         <source>Failed to save file</source>
-        <translation>Faili salvestamine ebaõnnestus</translation>
+        <translation>Kingi pakkimine ebaõnnestus</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>accessible</extracomment>
-        <translation>Sulge</translation>
+        <translation>Kauneid jõule!</translation>
     </message>
     <message>
         <source>Save</source>
         <extracomment>accessible</extracomment>
-        <translation>Salvesta</translation>
+        <translation>Pane tallele</translation>
     </message>
 </context>
 <context>
     <name>CertificateHistory</name>
     <message>
         <source>CLOSE</source>
-        <translation>SULGE</translation>
+        <translation>Olen Terve</translation>
     </message>
     <message>
         <source>REMOVE</source>
-        <translation>EEMALDA</translation>
+        <translation>Viska ära</translation>
     </message>
     <message>
         <source>Owner</source>
@@ -467,7 +467,7 @@
     </message>
     <message>
         <source>ID-card</source>
-        <translation>ID-kaart</translation>
+        <translation>Jõuluvana</translation>
     </message>
     <message>
         <source>Digi-ID</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Used certificates</source>
-        <translation>Kasutatud sertifikaadid</translation>
+        <translation>Kasutatud päkapikkude sokid</translation>
     </message>
     <message>
         <source>Close</source>
@@ -494,7 +494,7 @@
     <message>
         <source>Remove</source>
         <extracomment>accessible</extracomment>
-        <translation>Eemalda</translation>
+        <translation>Pühi ära</translation>
     </message>
     <message>
         <source>Certificate for Encryption</source>
@@ -536,27 +536,27 @@
     </message>
     <message>
         <source>SEND WITH E-MAIL</source>
-        <translation>EDASTA E-POSTIGA</translation>
+        <translation>Saada pakk E-Rudolphiga</translation>
     </message>
     <message>
         <source>PRINT SUMMARY</source>
-        <translation>TRÜKI KINNITUSLEHT</translation>
+        <translation>Prindi soovinimekiri</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
-        <translation>KRÜPTEERI</translation>
+        <translation>Salakirjastamine</translation>
     </message>
     <message>
         <source>SIGN</source>
-        <translation>ALLKIRJASTA</translation>
+        <translation>Viska käpp alla</translation>
     </message>
     <message>
         <source>SAVE AS</source>
-        <translation>SALVESTA</translation>
+        <translation>Paneme käpaga paki vööri</translation>
     </message>
     <message>
         <source>SAVE WITHOUT SIGNING</source>
-        <translation>SALVESTA ALLKIRJASTAMATA</translation>
+        <translation>Paneme käpata pakid salve</translation>
     </message>
     <message>
         <source>STARTING</source>
@@ -564,15 +564,15 @@
     </message>
     <message>
         <source>The document has already been signed by you.</source>
-        <translation>Dokument on Sinu poolt juba allkirjastatud.</translation>
+        <translation>Sinu käpajälg on juba sellel pakil.</translation>
     </message>
     <message>
         <source>CONTINUE SIGNING</source>
-        <translation>JÄTKA ALLKIRJASTAMISEGA</translation>
+        <translation>JÄTKA KÄPAJÄLJE PANEKUT</translation>
     </message>
     <message>
         <source>DigiDoc4 Client</source>
-        <translation>DigiDoc4 klient</translation>
+        <translation>Jõuluvana saan</translation>
     </message>
     <message>
         <source>Change</source>
@@ -582,43 +582,43 @@
     <message>
         <source>Cancel</source>
         <extracomment>accessible</extracomment>
-        <translation>Katkesta</translation>
+        <translation>Käpajälg läks kaduma</translation>
     </message>
     <message>
         <source>Encrypt</source>
         <extracomment>accessible</extracomment>
-        <translation>Krüpteeri</translation>
+        <translation>Salakirjastamine</translation>
     </message>
     <message>
         <source>Save as</source>
         <extracomment>accessible</extracomment>
-        <translation>Salvesta</translation>
+        <translation>Pane tallele</translation>
     </message>
     <message>
         <source>Send with e-mail</source>
         <extracomment>accessible</extracomment>
-        <translation>Edasta e-postiga</translation>
+        <translation>Saada E-Rudolphiga</translation>
     </message>
     <message>
         <source>Print summary</source>
         <extracomment>accessible</extracomment>
-        <translation>Trüki kinnitusleht</translation>
+        <translation>Prindi kinkide nimekiri</translation>
     </message>
     <message>
         <source>Save without signing</source>
         <extracomment>accessible</extracomment>
-        <translation>Salvesta allkirjastamata</translation>
+        <translation>Paneme salve, aga käppa ei lisa</translation>
     </message>
 </context>
 <context>
     <name>CryptoDoc</name>
     <message>
         <source>Container is encrypted</source>
-        <translation>Turvaümbrik on krüpteeritud</translation>
+        <translation>Salakirjal on käpajälg korralik</translation>
     </message>
     <message>
         <source>Container is not open</source>
-        <translation>Turvaümbrik ei ole avatud</translation>
+        <translation>Käpajälg ei ole rebenenud</translation>
     </message>
     <message>
         <source>Key already exists</source>
@@ -630,7 +630,7 @@
     </message>
     <message>
         <source>You do not have the key to decrypt this document</source>
-        <translation>Sul puudub võti millega dekrüpteerida seda turvaümbrikut</translation>
+        <translation>Sul puudub õige käpp millega seda salakirja avada</translation>
     </message>
     <message>
         <source>Error parsing document</source>
@@ -642,7 +642,7 @@
     </message>
     <message>
         <source>ID-CARD</source>
-        <translation>ID-KAART</translation>
+        <translation>Jõuluvana</translation>
     </message>
     <message>
         <source>Digi-ID E-RESIDENT</source>
@@ -650,7 +650,7 @@
     </message>
     <message>
         <source>Digi-ID</source>
-        <translation>Digi-ID</translation>
+        <translation>Rudolph kas sina?</translation>
     </message>
 </context>
 <context>
@@ -673,19 +673,19 @@
     </message>
     <message>
         <source>Running</source>
-        <translation>Töötab</translation>
+        <translation>Päkapikud tööhoos</translation>
     </message>
     <message>
         <source>Not running</source>
-        <translation>Ei tööta</translation>
+        <translation>Päkapik jäi magama</translation>
     </message>
     <message>
         <source>Smart Card readers</source>
-        <translation>Kaardilugejad</translation>
+        <translation>Jõuluvana saan</translation>
     </message>
     <message>
         <source>Smart Card reader drivers</source>
-        <translation>Lugeja draiverid</translation>
+        <translation>Saani varuosad</translation>
     </message>
     <message>
         <source>Locale:</source>
@@ -697,15 +697,15 @@
     </message>
     <message>
         <source>Application version:</source>
-        <translation>Rakenduse versioon:</translation>
+        <translation>Jõulumaa arendus:</translation>
     </message>
     <message>
         <source>OS:</source>
-        <translation>Operatsioonisüsteem:</translation>
+        <translation>Saani tarkvara:</translation>
     </message>
     <message>
         <source>CPU:</source>
-        <translation>Protsessor:</translation>
+        <translation>Saani jõuallikas:</translation>
     </message>
     <message>
         <source>Kernel:</source>
@@ -721,23 +721,23 @@
     </message>
     <message>
         <source>USB info:</source>
-        <translation>USB info:</translation>
+        <translation>Saani garaaž:</translation>
     </message>
     <message>
         <source>Unknown - error %1</source>
-        <translation>Teadmata - viga %1</translation>
+        <translation>Päkapikk ei loe seda käekirja välja %1</translation>
     </message>
     <message>
         <source>User</source>
-        <translation>Kasutaja</translation>
+        <translation>Päkapikk</translation>
     </message>
     <message>
         <source>Administrator</source>
-        <translation>Administraator</translation>
+        <translation>Jõulumemm</translation>
     </message>
     <message>
         <source>User rights: </source>
-        <translation>Kasutajaõigused: </translation>
+        <translation>Päkapikumaa reeglid: </translation>
     </message>
     <message>
         <source>ATRfiltr service status: </source>
@@ -745,7 +745,7 @@
     </message>
     <message>
         <source>Not found</source>
-        <translation>Ei leitud</translation>
+        <translation>Midagi on kaduma läinud, aga mis?</translation>
     </message>
     <message>
         <source>Certificate Propagation service status: </source>
@@ -761,11 +761,11 @@
     </message>
     <message>
         <source>TSL signing certs</source>
-        <translation>TSL signeerimise sertifikaadid</translation>
+        <translation>Jõuluvana soovide nimekiri</translation>
     </message>
     <message>
         <source>TSL cache</source>
-        <translation>TSL puhver</translation>
+        <translation>Jõuluvana ladu</translation>
     </message>
     <message>
         <source>Applet version</source>
@@ -776,7 +776,7 @@
     <name>DigiDoc</name>
     <message>
         <source>Container is not open</source>
-        <translation>Ümbrik ei ole avatud</translation>
+        <translation>Pakk on avamata</translation>
     </message>
     <message>
         <source>Cannot add files to signed container</source>
@@ -784,47 +784,47 @@
     </message>
     <message>
         <source>Cannot add signature to empty container</source>
-        <translation>Tühjale ümbrikule ei saa lisada allkirja</translation>
+        <translation>Käpajälg ei jää tühjale ümbrikule</translation>
     </message>
     <message>
         <source>Missing signature</source>
-        <translation>Allkiri puudub</translation>
+        <translation>Käpajälg puudub</translation>
     </message>
     <message>
         <source>PIN Incorrect</source>
-        <translation>Vale PIN</translation>
+        <translation>Vale KÄPP</translation>
     </message>
     <message>
         <source>PIN Login failed</source>
-        <translation>PIN-koodi valideerimine ebaõnnestus</translation>
+        <translation>Käpa kontroll ebaõnnestus</translation>
     </message>
     <message>
         <source>Certificate status revoked</source>
-        <translation>Sertifikaat on kehtetu</translation>
+        <translation>Käpajälg on kulunud</translation>
     </message>
     <message>
         <source>Certificate status unknown</source>
-        <translation>Sertifikaadi staatus on teadmata</translation>
+        <translation>Tundmatu käpajälg</translation>
     </message>
     <message>
         <source>PIN Locked. Unblock to reuse PIN.</source>
-        <translation>PIN on lukus. Tühista blokeering, et PIN-i taas kasutada.</translation>
+        <translation>KÄPP on lukus. Puhasta käpad, et Käppa taas kasutada.</translation>
     </message>
     <message>
         <source>An error occurred while opening the document.</source>
-        <translation>Ümbriku avamisel tekkis viga.</translation>
+        <translation>Pakk ei avane.</translation>
     </message>
     <message>
         <source>Failed add file to container</source>
-        <translation>Faili lisamine ümbrikusse ebaõnnestus</translation>
+        <translation>Kingitus kukkus kotist mööda.</translation>
     </message>
     <message>
         <source>Failed remove signature from container</source>
-        <translation>Allkirja eemaldamine ümbrikust ebaõnnestus</translation>
+        <translation>Käpajälge ei õnnestunud paki pealt puhastada</translation>
     </message>
     <message>
         <source>Failed to save container</source>
-        <translation>Ümbriku salvestamine ebaõnnestus</translation>
+        <translation>Kingituse pakkimise ajal kinkepaber rebenes.</translation>
     </message>
     <message>
         <source>Failed to sign container. Check your Time-Stamping service access settings.</source>
@@ -832,35 +832,35 @@
     </message>
     <message>
         <source>You have not granted IP-based access. Check your validity confirmation service access settings.</source>
-        <translation>Puudub IP-põhine ligipääs. Kontrolli kehtivuskinnitusteenuse ligipääsu seadeid.</translation>
+        <translation>Viisat pole. Valisid punase koridori.</translation>
     </message>
     <message>
         <source>The limit for digital signatures per month has been reached for this IP address. &lt;a href=&quot;https://www.id.ee/en/article/for-organisations-that-sign-large-quantities-of-documents-using-digidoc4-client/&quot;&gt;Additional information&lt;/a&gt;</source>
-        <translation>Sinu IP-aadressi tasuta allkirjade kuulimiit on ületatud. &lt;a href=&quot;https://www.id.ee/artikkel/asutustele-kus-allkirjastatakse-digidoc4-kliendi-kaudu-suuremates-kogustes-dokumente/&quot;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
+        <translation>Sinu päkapikud on kõik selleks kuuks hõivatud, vabanevad järgmisel kuul. &lt;a href=&quot;https://www.id.ee/artikkel/asutustele-kus-allkirjastatakse-digidoc4-kliendi-kaudu-suuremates-kogustes-dokumente/&quot;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Tõsta käpp üles</translation>
     </message>
     <message>
         <source>YES</source>
-        <translation>JAH</translation>
+        <translation>Jah, muidugi</translation>
     </message>
     <message>
         <source>Please check your computer time. &lt;a href=&apos;https://www.id.ee/en/article/digidoc4-client-error-please-check-your-computer-time-2/&apos;&gt;Additional information&lt;/a&gt;</source>
-        <translation>Palun kontrolli oma arvuti kellaaega. &lt;a href=&apos;https://www.id.ee/artikkel/digidoc4-klient-viga-palun-kontrollige-oma-arvuti-kellaaega-2/&apos;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
+        <translation>Palun kontrolli oma ajavööndit, ega te pole viimasel ajal ajas rännanud? &lt;a href=&apos;https://www.id.ee/artikkel/digidoc4-klient-viga-palun-kontrollige-oma-arvuti-kellaaega-2/&apos;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
     </message>
     <message>
         <source>The timestamp added to the signature must be taken before validity confirmation.</source>
-        <translation>Allkirjale lisatud ajatempel peab olema varasem kehtivuskinnitusest.</translation>
+        <translation>Käpajälje värskus on kaheldav.</translation>
     </message>
     <message>
         <source>Connecting to SiVa server failed! Please check your internet connection.</source>
-        <translation>Viga SiVa serveriga ühenduse saamisel! Palun kontrolli internetiühendust.</translation>
+        <translation>Viga Jõulumaaga ühenduse saamisel! Palun kontrolli oma sidekanaleid.</translation>
     </message>
     <message>
         <source>Failed to sign container.</source>
-        <translation>Ümbriku allkirjastamine ebaõnnestus.</translation>
+        <translation>Kingikott purunes, proovi uuesti pakkida.</translation>
     </message>
     <message>
         <source>Signed document in PDF and DDOC format will be transmitted to the Digital Signature Validation Service SiVa to verify the validity of the digital signature. Read more information about transmitted data to Digital Signature Validation service from &lt;a href=&quot;https://www.id.ee/en/article/data-protection-conditions-for-the-id-software-of-the-national-information-system-authority/&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;Do you want to continue?</source>
@@ -872,11 +872,11 @@
     </message>
     <message>
         <source>Failed to sign container. Please check the access to signing services and network settings.</source>
-        <translation>Ümbriku allkirjastamine ebaõnnestus. Palun kontrolli allkirjastamiseks vajalike teenuste ligipääsu ja võrgu sätteid.</translation>
+        <translation>Kingikott purunes, proovi uuesti pakkida.</translation>
     </message>
     <message>
         <source>Failed to sign container. Signing service URL is incorrect.</source>
-        <translation>Ümbriku allkirjastamine ebaõnnestus. Allkirjastamise teenuse URL ei ole korrektne.</translation>
+        <translation>Kingituse käpaga märkimine ei õnnestunud. Kingituse paber on liiga läikiv.</translation>
     </message>
     <message>
         <source>Opening</source>
@@ -887,11 +887,11 @@
     <name>DocumentModel</name>
     <message>
         <source>A file with this extension cannot be opened in the DigiDoc4 Client. Download the file to view it.</source>
-        <translation>Sellise laiendiga faili ei ole võimalik avada DigiDoc4 kliendis. Faili vaatamiseks laadi see alla.</translation>
+        <translation>Selliseid kingitusi pole võimalik avada, nende avamiseks on tarvis abiväge.</translation>
     </message>
     <message>
         <source>Cannot add the file to the envelope. File &apos;%1&apos; is already in container.</source>
-        <translation>Faili lisamine ümbrikusse ebaõnnestus. Lisatud &apos;%1&apos; on juba ümbrikus olemas.</translation>
+        <translation>Kingitus ei mahtunud kingikotti. Lisatud &apos;%1&apos; on juba ümbrikus olemas.</translation>
     </message>
     <message>
         <source>Failed to save file &apos;%1&apos;</source>
@@ -899,7 +899,7 @@
     </message>
     <message>
         <source>Internal error</source>
-        <translation>Sisemine viga</translation>
+        <translation>Kingitus tiksub</translation>
     </message>
     <message>
         <source>OK</source>
@@ -914,7 +914,7 @@
     <name>FileDialog</name>
     <message>
         <source>You don&apos;t have sufficient privileges to write this file into folder %1</source>
-        <translation>Sul ei ole piisavalt õigusi, et kirjutada fail kataloogi %1</translation>
+        <translation>Sul on teise päkapiku abi vaja, et ulatuda ülemise riiulini %1</translation>
     </message>
     <message>
         <source>Choose</source>
@@ -926,23 +926,23 @@
     <message>
         <source>Remove file</source>
         <extracomment>accessible</extracomment>
-        <translation>Eemalda fail</translation>
+        <translation>Eemalda katkine pakend</translation>
     </message>
     <message>
         <source>Download file</source>
         <extracomment>accessible</extracomment>
-        <translation>Laadi fail alla</translation>
+        <translation>Võta kingitus laost</translation>
     </message>
 </context>
 <context>
     <name>FileList</name>
     <message>
         <source>Save file</source>
-        <translation>Salvesta fail</translation>
+        <translation>Paiguta kingitus lattul</translation>
     </message>
     <message>
         <source>Add files</source>
-        <translation>Lisa faile</translation>
+        <translation>Lisa kingitusi</translation>
     </message>
     <message>
         <source>NO</source>
@@ -950,19 +950,19 @@
     </message>
     <message>
         <source>YES</source>
-        <translation>JAH</translation>
+        <translation>Muidugi</translation>
     </message>
     <message>
         <source>SAVE WITH OTHER NAME</source>
-        <translation>SALVESTA TEISE NIMEGA</translation>
+        <translation>Sama nimega kingisaaja on juba olemas</translation>
     </message>
     <message>
         <source>REPLACE ALL</source>
-        <translation>KIRJUTA KÕIK ÜLE</translation>
+        <translation>Vaheta kõik kingid välja</translation>
     </message>
     <message>
         <source>Select folder where files will be stored</source>
-        <translation>Vali kataloog kuhu failid salvestatakse</translation>
+        <translation>Vali ladu kuhu kingid viia</translation>
     </message>
     <message>
         <source>%1 already exists.&lt;br /&gt;Do you want replace it?</source>
@@ -970,26 +970,26 @@
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Tõstad käpad üles</translation>
     </message>
 </context>
 <context>
     <name>FirstRun</name>
     <message>
         <source>Welcome to the Estonian eID application DigiDoc!</source>
-        <translation>Tere tulemast Eesti eID rakenduse DigiDoc kasutajaks!</translation>
+        <translation>Tere tulemast Põhjanabale, rakenduse Jõulumaa kasutajaks!</translation>
     </message>
     <message>
         <source>DigiDoc is created for managing Estonian eIDs and is the official digital signing and encryption application.</source>
-        <translation>DigiDoc on loodud Eesti eID-de haldamiseks ja on ametlik rakendus dokumentide digitaalseks allkirjastamiseks ja krüpteerimiseks.</translation>
+        <translation>Jõulumaa on loodud Jõuluvana ja päkapikkude pakitud kinkide haldamiseks ja on ametlik kanal salakirjade edastamiseks.</translation>
     </message>
     <message>
         <source>CONTINUE</source>
-        <translation>JÄTKA</translation>
+        <translation>Kappame edasi</translation>
     </message>
     <message>
         <source>VIEW NEXT INTRO</source>
-        <translation>VAATA JÄRGMIST TUTVUSTUST</translation>
+        <translation>Jõulumaa tutvustus</translation>
     </message>
     <message>
         <source>Skip introductions</source>
@@ -1001,19 +1001,19 @@
     </message>
     <message>
         <source>ENTER THE APPLICATION</source>
-        <translation>SISENE RAKENDUSSE</translation>
+        <translation>SISENE JÕULUMAALE</translation>
     </message>
     <message>
         <source>The DigiDoc application allows you to:</source>
-        <translation>DigiDoc rakendus võimaldab Sinul:</translation>
+        <translation>Jõulumaa rakendus võimaldab Sinul:</translation>
     </message>
     <message>
         <source>Sign documents</source>
-        <translation>Dokumente allkirjastada</translation>
+        <translation>Kinke käpaga määratleda</translation>
     </message>
     <message>
         <source>Encrypt documents</source>
-        <translation>Dokumente krüpteerida</translation>
+        <translation>Salakirju saata</translation>
     </message>
     <message>
         <source>Manage your eID-s</source>
@@ -1117,11 +1117,11 @@
     <message>
         <source>Enter the application</source>
         <extracomment>accessible</extracomment>
-        <translation>Sisene rakendusse</translation>
+        <translation>Sisene jõulurakendusse</translation>
     </message>
     <message>
         <source>Go to signing intro</source>
-        <translation>Mine allkirjastamise tutvustuse juurde</translation>
+        <translation>Mine käpajälje tutvustuse juurde</translation>
     </message>
     <message>
         <source>Go to EID intro</source>
@@ -1129,7 +1129,7 @@
     </message>
     <message>
         <source>Go to encryption intro</source>
-        <translation>Mine krüpteerimise tutvustuse juurde</translation>
+        <translation>Mine salakirjade koostamise tutvustuse juurde</translation>
     </message>
     <message>
         <source>&quot;My eID&quot; also provides a good overview of the status and contact information of the ID card inserted in the card reader.</source>
@@ -1140,7 +1140,7 @@
     <name>InfoStack</name>
     <message>
         <source>DOWNLOAD</source>
-        <translation>LAADI PILT</translation>
+        <translation>LAADI PÄKAPIKU PILT</translation>
     </message>
     <message>
         <source>CITIZENSHIP</source>
@@ -1176,7 +1176,7 @@
     </message>
     <message>
         <source>SAVE THE PICTURE</source>
-        <translation>SALVESTA PILT</translation>
+        <translation>SALVESTA PÄKAPIKU PILT</translation>
     </message>
     <message>
         <source>You&apos;re using digital identity card</source>
@@ -1184,7 +1184,7 @@
     </message>
     <message>
         <source>Valid</source>
-        <translation>Kehtiv</translation>
+        <translation>Jälg</translation>
     </message>
     <message>
         <source> until </source>
@@ -1197,7 +1197,7 @@
     <message>
         <source>Load picture</source>
         <extracomment>accessible</extracomment>
-        <translation>Laadi pilt</translation>
+        <translation>Laadi päkapiku pilt</translation>
     </message>
     <message>
         <source>Given names</source>
@@ -1212,17 +1212,17 @@
     <message>
         <source>Personal code</source>
         <extracomment>accessible</extracomment>
-        <translation>Isikukood</translation>
+        <translation>Päkapiku kiirus</translation>
     </message>
     <message>
         <source>Citizenship</source>
         <extracomment>accessible</extracomment>
-        <translation>Kodakondsus</translation>
+        <translation>Päkapiku päritolu</translation>
     </message>
     <message>
         <source>Document</source>
         <extracomment>accessible</extracomment>
-        <translation>Dokument</translation>
+        <translation>Kingitus</translation>
     </message>
 </context>
 <context>
@@ -1233,11 +1233,11 @@
     </message>
     <message>
         <source>Enter the personal code, institution or registry code</source>
-        <translation>Sisesta isikukood, asutus või registrikood</translation>
+        <translation>Sisesta päkapiku vanus, pikkus või jalanumber</translation>
     </message>
     <message>
         <source>+ ADD MORE FILES</source>
-        <translation>+ LISA VEEL FAILE</translation>
+        <translation>+ LISA VEEL KINGITUSI KINGIKOTTI</translation>
     </message>
     <message>
         <source>+ ADD RECIPIENT</source>
@@ -1245,23 +1245,23 @@
     </message>
     <message>
         <source>ADD ALL</source>
-        <translation>LISA KÕIK</translation>
+        <translation>LISA KÕIK KINGID</translation>
     </message>
     <message>
         <source>Container is not signed</source>
-        <translation>Ümbrikul puuduvad allkirjad</translation>
+        <translation>Kingitusel puuduvad käpajäljed</translation>
     </message>
     <message>
         <source>Container files</source>
-        <translation>Ümbriku failid</translation>
+        <translation>Kingikotis olevad kingid</translation>
     </message>
     <message>
         <source>Container signatures</source>
-        <translation>Ümbriku allkirjad</translation>
+        <translation>Kingituse käpajäljed</translation>
     </message>
     <message>
         <source>Container timestamps</source>
-        <translation>Ümbriku ajatemplid</translation>
+        <translation>Kingituse käpajälje värskus</translation>
     </message>
     <message>
         <source>Recipients</source>
@@ -1269,7 +1269,7 @@
     </message>
     <message>
         <source>Encrypted files</source>
-        <translation>Krüpteeritud failid</translation>
+        <translation>Salakiri otse sahtlist</translation>
     </message>
     <message>
         <source>RECIPIENT_MESSAGE</source>
@@ -1278,11 +1278,11 @@
     </message>
     <message>
         <source>Enter personal code, company or registry code</source>
-        <translation>Sisesta isikukood, asutus või registrikood</translation>
+        <translation>Sisesta päkapiku vanus</translation>
     </message>
     <message>
         <source>Add recipients</source>
-        <translation>Lisa adressaadid</translation>
+        <translation>Soovin saata vanamoodsat salakirja just temale</translation>
     </message>
     <message>
         <source>Added recipients</source>
@@ -1295,26 +1295,26 @@
     </message>
     <message>
         <source>Download all files</source>
-        <translation>Laadi kõik failid alla</translation>
+        <translation>Laadi kõik kingid varasalve</translation>
     </message>
 </context>
 <context>
     <name>KeyDialog</name>
     <message>
         <source>Encrypt for</source>
-        <translation>Krüpteerida adressaadile</translation>
+        <translation>Salakiri adressaadile</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation>Atribuut</translation>
+        <translation>Asimuut</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Väärtus</translation>
+        <translation>Tähesära</translation>
     </message>
     <message>
         <source>CLOSE</source>
-        <translation>SULGE</translation>
+        <translation>Ole terve</translation>
     </message>
     <message>
         <source>SHOW CERTIFICATE</source>
@@ -1322,7 +1322,7 @@
     </message>
     <message>
         <source>Crypto method</source>
-        <translation>Krüpteerimismeetod</translation>
+        <translation>Salasoovi meetod</translation>
     </message>
     <message>
         <source>Agreement method</source>
@@ -1338,17 +1338,17 @@
     </message>
     <message>
         <source>Issuer</source>
-        <translation>Väljaandja</translation>
+        <translation>Kingi suunaja</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>accessible</extracomment>
-        <translation>Sulge</translation>
+        <translation>Olen terve</translation>
     </message>
     <message>
         <source>Show certificate</source>
         <extracomment>accessible</extracomment>
-        <translation>Näita sertifikaati</translation>
+        <translation>Näita passi</translation>
     </message>
     <message>
         <source>Recipient</source>
@@ -1376,7 +1376,7 @@
     <message>
         <source>Check your internet connection!
 LDAP server is unavailable.</source>
-        <translation>Kontrolli arvuti internetiühendust!
+        <translation>Ei saanud soovide nimekijra kätte. Kirjuta jõuluvanale uued soovid.
 LDAP serveriga ei saa ühendust.</translation>
     </message>
     <message>
@@ -1404,11 +1404,11 @@ LDAP serveriga ei saa ühendust.</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Sulge</translation>
+        <translation>Olen terve</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Seaded</translation>
+        <translation>Pakkimisviis</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -1419,36 +1419,36 @@ LDAP serveriga ei saa ühendust.</translation>
     <name>MainAction</name>
     <message>
         <source>SignatureMobile</source>
-        <translation>ALLKIRJASTA
+        <translation>Viska käpp alla
 MOBIIL-ID’GA</translation>
     </message>
     <message>
         <source>SignatureSmartID</source>
-        <translation>ALLKIRJASTA
+        <translation>Viska käpp alla
 SMART-ID’GA</translation>
     </message>
     <message>
         <source>SignatureAdd</source>
-        <translation>ALLKIRJASTA
+        <translation>Viska käpp alla
 ID-KAARDIGA</translation>
     </message>
     <message>
         <source>SignatureToken</source>
-        <translation>ALLKIRJASTA
+        <translation>Viska käpp alla
 E-TEMPLIGA</translation>
     </message>
     <message>
         <source>EncryptContainer</source>
-        <translation>KRÜPTEERI</translation>
+        <translation>Salasta pakk</translation>
     </message>
     <message>
         <source>DecryptContainer</source>
-        <translation>DEKRÜPTEERI
+        <translation>Ava salastatud pakk
 ID-KAARDIGA</translation>
     </message>
     <message>
         <source>DECRYPT</source>
-        <translation>DEKRÜPTEERI</translation>
+        <translation>Ava salastatud pakk</translation>
     </message>
     <message>
         <source>Token selection</source>
@@ -1472,43 +1472,43 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Drag file here for signing ...</source>
-        <translation>Allkirjastamiseks või kontrollimiseks lohista fail siia ...</translation>
+        <translation>Kingituse pakkimiseks lohista kingitus siia ...</translation>
     </message>
     <message>
         <source>Open file for signing or verifying</source>
-        <translation>... VÕI VALI FAIL KETTALT</translation>
+        <translation>... VÕI VALI SOBIV KINGITUS SAHVRIST</translation>
     </message>
     <message>
         <source>Drag file here for encryption ...</source>
-        <translation>Krüpteerimiseks või dekrüpteerimiseks lohista fail siia ...</translation>
+        <translation>Salakirjade lukustamiseks või avamiseks lohista salajane jõulusoov siia ...</translation>
     </message>
     <message>
         <source>Open file for encryption or decryption</source>
-        <translation>... VÕI VALI FAIL KETTALT</translation>
+        <translation>... VÕI VALI MÕNI VARASEMALT VALMIS MÕELDUD SALASOOV</translation>
     </message>
     <message>
         <source>signature container</source>
-        <translation>allkirja ümbrik</translation>
+        <translation>Käpajäljega kingitus</translation>
     </message>
     <message>
         <source>crypto container</source>
-        <translation>krüpto ümbrik</translation>
+        <translation>Käpajäljega salasoov</translation>
     </message>
     <message>
         <source>Decryption succeeded!</source>
-        <translation>Dekrüpteerimine õnnestus!</translation>
+        <translation>Salasoovi avamine õnnestus!</translation>
     </message>
     <message>
         <source>Encryption succeeded!</source>
-        <translation>Krüpteerimine õnnestus!</translation>
+        <translation>Salasoovi lukustamine käpajäljega õnnestus!</translation>
     </message>
     <message>
         <source>Select documents</source>
-        <translation>Lisa failid</translation>
+        <translation>Pane kink sisse</translation>
     </message>
     <message>
         <source>DigiDoc4 Client</source>
-        <translation>DigiDoc4 klient</translation>
+        <translation>Rõõmsaid jõule!</translation>
     </message>
     <message>
         <source>Cannot alter container %1. Save different location?</source>
@@ -1520,15 +1520,15 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Save file</source>
-        <translation>Salvesta fail</translation>
+        <translation>Pane tallele</translation>
     </message>
     <message>
         <source>The container has been successfully signed!</source>
-        <translation>Ümbrik on edukalt allkirjastatud!</translation>
+        <translation>Käpajälje tegemine õnnestus, tubli!</translation>
     </message>
     <message>
         <source>Save photo</source>
-        <translation>Salvesta foto</translation>
+        <translation>Sikuta endale päkapiku pilt</translation>
     </message>
     <message>
         <source>Ver. </source>
@@ -1536,59 +1536,59 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>You&apos;ve added file(s) to container, but these are not signed yet. Keep the unsigned container or remove it?</source>
-        <translation>Oled lisanud ümbrikusse faile, kuid pole neid allkirjastanud. Kas jätan allkirjastamata ümbriku alles või eemaldan selle?</translation>
+        <translation>Oled lisanud kingituse, aga puudub käpajälg. Kas jätan käpajäljeta kingituse alles või eemaldan selle?</translation>
     </message>
     <message>
         <source>You&apos;ve changed the open container but have not saved any changes. Save the changes or close without saving?</source>
-        <translation>Oled avatud ümbrikut muutnud, kuid ei ole muudatusi salvestanud. Kas salvestan muudatused või sulgen salvestamata?</translation>
+        <translation>Oled avatud kingitust muutnud, kuid ei ole muudatusi kinnitanud käpajäljega. Kas paneme käpa alla?</translation>
     </message>
     <message>
         <source>REMOVE</source>
-        <translation>EEMALDA</translation>
+        <translation>Viska ära</translation>
     </message>
     <message>
         <source>KEEP</source>
-        <translation>JÄTA ALLES</translation>
+        <translation>Pane sahvrisse</translation>
     </message>
     <message>
         <source>DO NOT SAVE</source>
-        <translation>ÄRA SALVESTA</translation>
+        <translation>ÄRA LADUSTA PAKKI</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>SALVESTA</translation>
+        <translation>PANE TALLELE</translation>
     </message>
     <message>
         <source>Converted to signed document!</source>
-        <translation>Konverteeritud allkirjadokumendiks!</translation>
+        <translation>Muudetus käpajäljega kingituseks!</translation>
     </message>
     <message>
         <source>Converted to crypto container!</source>
-        <translation>Konverteeritud turvaümbrikuks!</translation>
+        <translation>Muudetud sajalaseks kirjaks!</translation>
     </message>
     <message>
         <source>Move file</source>
-        <translation>Liiguta fail</translation>
+        <translation>Liiguta kingitust</translation>
     </message>
     <message>
         <source>You are about to delete the last file in the container, it is removed along with the container.</source>
-        <translation>Oled kustutamas viimast faili ümbrikus, koos sellega eemaldatakse ka ümbrik.</translation>
+        <translation>Oled kustutamas viimast kingitust pakist, koos sellega eemaldatakse ka kingipakk.</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>KAOTASID KÄPAJÄLJE?</translation>
     </message>
     <message>
         <source>Removing signature</source>
-        <translation>Allkirja eemaldamine</translation>
+        <translation>Pühi käpajälg ära</translation>
     </message>
     <message>
         <source>Files can not be added to the signed container. The system will create a new container which shall contain the signed document and the files you wish to add.</source>
-        <translation>Allkirjastatud ümbrikusse ei saa faile lisada. Süsteem loob uue ümbriku, kuhu lisatakse allkirjastatud dokument ja Sinu valitud failid.</translation>
+        <translation>Käpajäljega kingipakki ei saa kinke lisada. Päkapikk loob uue kingikarbi, kuhu lisatakse käpajäljega salakiri ja Sinu valitud kingitused.</translation>
     </message>
     <message>
         <source>Files can not be added to the cryptocontainer. The system will create a new container which shall contain the cypto-document and the files you wish to add.</source>
-        <translation>Krüpto-ümbrikusse ei saa faile lisada. Süsteem loob uue ümbriku, kuhu lisatakse krüpteeritud dokument ja Sinu valitud failid.</translation>
+        <translation>Käpajäljega salakirjale ei saa soove lisada. Päkapikk loob uue salakirja, kuhu saad lisada uue käpajälje ja Sinu valitud salasoovi.</translation>
     </message>
     <message>
         <source>CONTINUE</source>
@@ -1597,12 +1597,12 @@ ID-KAARDIGA</translation>
     <message>
         <source>Cannot add container to same container
 %1</source>
-        <translation>Ümbriku lisamine samasse ümbrikusse ebaõnnestus
+        <translation>Sama mõõduga kingitust ei saa lisada olemasoleva kingitusega üht karpi
 %1</translation>
     </message>
     <message>
         <source>Connect the card reader to your computer and insert your ID card into the reader</source>
-        <translation>Ühenda kaardilugeja arvutiga ja sisesta ID-kaart lugejasse</translation>
+        <translation>Ei näe ikka veel jõuluvana, vaata kas USB pordi esine on lumest vaba</translation>
     </message>
     <message>
         <source>In order to view Validity Confirmation Sheet there has to be at least one printer installed!</source>
@@ -1618,15 +1618,15 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Loading picture failed.</source>
-        <translation>Pildi laadimine ebaõnnestus.</translation>
+        <translation>Päkapikk ei jõudnud kiirel jõuluajal pildistama.</translation>
     </message>
     <message>
         <source>Encrypting</source>
-        <translation>Krüpteerin</translation>
+        <translation>Salakirjale käpajälje lisamine</translation>
     </message>
     <message>
         <source>Changing %1 failed</source>
-        <translation>%1 muutmine ebaõnnestus</translation>
+        <translation>%1 Valesti läks</translation>
     </message>
     <message>
         <source>%1 length has to be between %2 and 12</source>
@@ -1635,13 +1635,13 @@ ID-KAARDIGA</translation>
     <message numerus="yes">
         <source>Wrong %1 code. You can try %n more time(s).</source>
         <translation>
-            <numerusform>Vale %1-kood. Saad veel proovida %n kord.</numerusform>
-            <numerusform>Vale %1-kood. Saad veel proovida %n korda.</numerusform>
+            <numerusform>Vale %1-käpp. Jõuluvana andis uue võimaluse, võimalusi %n kord.</numerusform>
+            <numerusform>Vale %1-käpp. Jõuluvana andis uue võimaluse, võimalusi %n korda.</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 blocked</source>
-        <translation>%1-kood blokeeritud</translation>
+        <translation>%1-käpp blokeeritud</translation>
     </message>
     <message>
         <source>Old and new %1 has to be different!</source>
@@ -1653,15 +1653,15 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>%1 timeout</source>
-        <translation>%1 päring aegus</translation>
+        <translation>%1 olid natuke aeglane, proovi uuesti</translation>
     </message>
     <message>
         <source>Signing</source>
-        <translation>Allkirjastamine</translation>
+        <translation>Käpajälg tuleb</translation>
     </message>
     <message>
         <source>Check internet connection</source>
-        <translation>Kontrolli internetiühendust</translation>
+        <translation>Oled Sa ikka ühenduses?</translation>
     </message>
     <message>
         <source>Photo (*.jpg *.jpeg);;All Files (*)</source>
@@ -1670,31 +1670,31 @@ ID-KAARDIGA</translation>
     <message>
         <source>Load file from disk for signing or verifying</source>
         <comment>accessible</comment>
-        <translation>Vali fail kettalt allkirjastamiseks või kontrollimiseks</translation>
+        <translation>Vali kingitus salvest allkirjastamiseks või käpajälje lisamiseks</translation>
     </message>
     <message>
         <source>Load file from disk for encryption or decryption</source>
         <comment>accessible</comment>
-        <translation>Vali fail kettalt krüpteerimiseks või dekrüpteerimiseks</translation>
+        <translation>Vali salakiri salvest käpajälje lisamiseks või lahti kraapimiseks</translation>
     </message>
     <message>
         <source>Select signature page</source>
         <extracomment>accessible</extracomment>
-        <translation>Vali leht allkiri</translation>
+        <translation>Vali leht Kingituse pakkimine</translation>
     </message>
     <message>
         <source>Select crypto page</source>
         <extracomment>accessible</extracomment>
-        <translation>Vali leht krüpto</translation>
+        <translation>Vali leht salakirja saatmine</translation>
     </message>
     <message>
         <source>Select my EID page</source>
         <extracomment>accessible</extracomment>
-        <translation>Vali leht minu eID</translation>
+        <translation>Vali leht päkapiku eID</translation>
     </message>
     <message>
         <source>The card in the card reader is not an Estonian ID-card</source>
-        <translation>Lugejas olev kaart ei ole Eesti ID-kaart</translation>
+        <translation>Antud jõuluvana ei oska kohalikku keelt</translation>
     </message>
     <message>
         <source>Decrypting</source>
@@ -1709,68 +1709,68 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Remember me</source>
-        <translation>Pea mind meeles</translation>
+        <translation>Pea ikka päkapikku meeles</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Peata käpp</translation>
     </message>
     <message>
         <source>SIGN</source>
-        <translation>ALLKIRJASTA</translation>
+        <translation>Lisa käpp</translation>
     </message>
     <message>
         <source>Personal code is not valid</source>
-        <translation>Isikukood pole kehtiv</translation>
+        <translation>Päkapikk ületas kiirust</translation>
     </message>
     <message>
         <source>Phone number is not entered</source>
-        <translation>Telefoninumber pole sisestatud</translation>
+        <translation>Päkapiku vanust pole sisestatud</translation>
     </message>
     <message>
         <source>Cancel</source>
         <extracomment>accessible</extracomment>
-        <translation>Katkesta</translation>
+        <translation>Peata käpajälg</translation>
     </message>
     <message>
         <source>Sign</source>
         <extracomment>accessible</extracomment>
-        <translation>Allkirjastan</translation>
+        <translation>Viskan rõõmsalt käpa alla</translation>
     </message>
     <message>
         <source>Country code and phone number</source>
-        <translation>Riigikood ja telefoninumber</translation>
+        <translation>Päkapiku asukoht ja vanus</translation>
     </message>
     <message>
         <source>Personal code</source>
-        <translation>Isikukood</translation>
+        <translation>Päkapiku kiirus</translation>
     </message>
     <message>
         <source>Invalid country code</source>
-        <translation>Vigane riigikood</translation>
+        <translation>Kindel, et see on päkapiku asukoht?</translation>
     </message>
     <message>
         <source>Mobile-ID</source>
-        <translation>Mobiil-ID</translation>
+        <translation>Mobiilne käpp</translation>
     </message>
 </context>
 <context>
     <name>MobileProgress</name>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Peata käpp</translation>
     </message>
     <message>
         <source>Signing in process</source>
-        <translation>Toimub allkirjastamine</translation>
+        <translation>Toimub käpajälje kontroll</translation>
     </message>
     <message>
         <source>Phone is not in coverage area</source>
-        <translation>Telefon ei ole levis</translation>
+        <translation>Päkapikk on kadunud</translation>
     </message>
     <message>
         <source>Request sending error</source>
-        <translation>Päringu saatmise viga</translation>
+        <translation>Päkapikk ei vasta</translation>
     </message>
     <message>
         <source>SIM error</source>
@@ -1801,11 +1801,11 @@ ja sisesta telefonil mobiil-ID PIN2-kood.</translation>
     <message>
         <source>Cancel</source>
         <extracomment>accessible</extracomment>
-        <translation>Katkesta</translation>
+        <translation>Pühi käpp puhtaks</translation>
     </message>
     <message>
         <source>%1 service has encountered technical errors. Please try again later.</source>
-        <translation>%1 teenuses esinevad tehnilised tõrked. Palun proovi mõne aja pärast uuesti.</translation>
+        <translation>%1 Jõulumaal esinevad tehnilised tõrked. Palun proovi mõne aja pärast uuesti.</translation>
     </message>
     <message>
         <source>Invalid content type header </source>
@@ -1851,7 +1851,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Failed to sign container. Check your %1 service access settings. &lt;a href=&quot;https://www.id.ee/en/article/for-organisations-that-sign-large-quantities-of-documents-using-digidoc4-client/&quot;&gt;Additional information&lt;/a&gt;</source>
-        <translation>Ümbriku allkirjastamine ebaõnnestus. Kontrolli %1 teenuse ligipääsu seadeid. &lt;a href=&quot;https://www.id.ee/artikkel/asutustele-kus-allkirjastatakse-digidoc4-kliendi-kaudu-suuremates-kogustes-dokumente/&quot;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
+        <translation>Käpajälje lisamine ebaõnnestus. Kontrolli %1 teenuse ligipääsu seadeid. &lt;a href=&quot;https://www.id.ee/artikkel/asutustele-kus-allkirjastatakse-digidoc4-kliendi-kaudu-suuremates-kogustes-dokumente/&quot;&gt;Loe täpsemalt siit&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Your Smart-ID certificate level must be qualified to sign documents in DigiDoc4 Client.</source>
@@ -1871,35 +1871,35 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Please include correct country code.</source>
-        <translation>Telefoninumber peab sisaldama riigikoodi.</translation>
+        <translation>Päkapiku vanus peab sisaldama riigikoodi.</translation>
     </message>
     <message>
         <source>Error: an incorrect control code was chosen</source>
-        <translation>Viga: valiti vale kontrollkood</translation>
+        <translation>Viga: valiti vale käpajälg</translation>
     </message>
     <message>
         <source>Sign document</source>
-        <translation>Allkirjasta dokument</translation>
+        <translation>Lisa käpajälg dokumendile</translation>
     </message>
     <message>
         <source>Your mobile-ID transaction has failed. Please contact your mobile network operator.</source>
-        <translation>Sinu mobiil-ID toiming ebaõnnestus. Palun võta ühendust enda mobiilioperaatoriga.</translation>
+        <translation>Sinu mobiil-käpa toiming ebaõnnestus. Palun võta ühendust põhjanaba operaatoriga.</translation>
     </message>
     <message>
         <source>User denied or cancelled</source>
-        <translation>Kasutaja keeldus või katkestas</translation>
+        <translation>Käpajälg läks kaduma</translation>
     </message>
     <message>
         <source>Your mobile-ID transaction has expired. Please try again.</source>
-        <translation>Sinu mobiil-ID toiming aegus. Palun proovi uuesti.</translation>
+        <translation>Sinu mobiil-käpa toiming aegus. Palun proovi uuesti.</translation>
     </message>
     <message>
         <source>Failed to connect with service server. Please check your network settings or try again later.</source>
-        <translation>Teenuse serveriga ühendus ebaõnnestus. Palun kontrolli võrgu sätteid või proovi hiljem uuesti.</translation>
+        <translation>Ei saanud soovide nimekirja kätte. Kirjuta jõuluvanale uued soovid.</translation>
     </message>
     <message>
         <source>Failed to send request. Check your %1 service access settings.</source>
-        <translation>Päringu saatmine ebaõnnestus. Kontrolli %1 teenuse ligipääsu seadeid.</translation>
+        <translation>Jõulusoovi saatmine ebaõnnestus. Kontrolli %1 teenuse ligipääsu seadeid.</translation>
     </message>
     <message>
         <source>Your Smart-ID transaction has failed. Please check your Smart-ID application or contact Smart-ID customer support.</source>
@@ -1930,15 +1930,15 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <name>NoCardInfo</name>
     <message>
         <source>No card in reader</source>
-        <translation>Lugejas ei ole kaarti; kontrolli, kas ID-kaart on õiget pidi lugejas</translation>
+        <translation>Ei näe ikka veel jõuluvana</translation>
     </message>
     <message>
         <source>No readers found</source>
-        <translation>Ühtegi kiipkaardilugejat pole ühendatud</translation>
+        <translation>Usud Sa ikka jõuluvana?</translation>
     </message>
     <message>
         <source>Loading data</source>
-        <translation>Loen andmeid</translation>
+        <translation>Ühendun lapimaaga</translation>
     </message>
     <message>
         <source>The PCSC service, required for using the ID-card, is not working. Check your computer settings.</source>
@@ -1976,11 +1976,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>PIN will be locked next failed attempt</source>
-        <translation>Vale koodi sisestamisel PIN lukustub</translation>
+        <translation>Vale käpa sisestamisel käpp1 lukustub</translation>
     </message>
     <message>
         <source>PIN has been entered incorrectly at least once</source>
-        <translation>PIN on vähemalt ühe korra valesti sisestatud</translation>
+        <translation>Käpajälg on vähemalt ühe korra valesti sisestatud</translation>
     </message>
     <message>
         <source>For using sign certificate enter PIN2 at the reader</source>
@@ -2009,7 +2009,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <message>
         <source>Cancel</source>
         <extracomment>accessible</extracomment>
-        <translation>Katkesta</translation>
+        <translation>Peata käpp</translation>
     </message>
 </context>
 <context>
@@ -2020,7 +2020,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Peata käpp</translation>
     </message>
     <message>
         <source>UNBLOCK</source>
@@ -2158,27 +2158,27 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <name>PrintSheet</name>
     <message>
         <source>SIGNED FILES</source>
-        <translation>ALLKIRJASTATUD FAILID</translation>
+        <translation>Käpajäljega kingitused</translation>
     </message>
     <message>
         <source>FILE NAME</source>
-        <translation>FAILI NIMI</translation>
+        <translation>KINGITUSE NIMI</translation>
     </message>
     <message>
         <source>FILE SIZE</source>
-        <translation>FAILI SUURUS</translation>
+        <translation>KINGI SUURUS</translation>
     </message>
     <message>
         <source>SIGNERS</source>
-        <translation>ALLKIRJASTAJAD</translation>
+        <translation>KÄPAJÄLJE PAIGALDAJAD</translation>
     </message>
     <message>
         <source>NAME</source>
-        <translation>NIMI</translation>
+        <translation>PAKI NIMI</translation>
     </message>
     <message>
         <source>PERSONAL CODE</source>
-        <translation>ISIKUKOOD</translation>
+        <translation>PÄKAPIKU KIIRUS</translation>
     </message>
     <message>
         <source>TIME</source>
@@ -2186,7 +2186,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>NOTES</source>
-        <translation>MÄRKUSED</translation>
+        <translation>PÄKAPIKU MÕTTETERAD</translation>
     </message>
     <message>
         <source>VALIDITY CONFIRMATION SHEET</source>
@@ -2198,7 +2198,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>VALIDITY OF SIGNATURE</source>
-        <translation>ALLKIRJA KEHTIVUS</translation>
+        <translation>KÄPAJÄLJE KEHTIVUS</translation>
     </message>
     <message>
         <source>ROLE / RESOLUTION</source>
@@ -2206,7 +2206,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>PLACE OF CONFIRMATION (CITY, STATE, ZIP, COUNTRY)</source>
-        <translation>ALLKIRJASTAJA  ASUKOHT (LINN, MAAKOND, INDEKS, RIIK)</translation>
+        <translation>PAKKIJA  ASUKOHT (LINN, MAAKOND, INDEKS, RIIK)</translation>
     </message>
     <message>
         <source>ISSUER OF CERTIFICATE</source>
@@ -2234,11 +2234,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>SIGNATURE IS VALID</source>
-        <translation>ALLKIRI ON KEHTIV</translation>
+        <translation>KÄPAJÄLG ON LEGAALNE</translation>
     </message>
     <message>
         <source>SIGNATURE IS NOT VALID</source>
-        <translation>ALLKIRI EI OLE KEHTIV</translation>
+        <translation>ANTUD KÄPP ON TAGAOTSITAV</translation>
     </message>
     <message>
         <source>HASH VALUE OF SIGNATURE</source>
@@ -2292,7 +2292,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <name>QFileDialog</name>
     <message>
         <source>All Files (*)</source>
-        <translation>Kõik failid (*)</translation>
+        <translation>Kõik kingitused (*)</translation>
     </message>
 </context>
 <context>
@@ -2311,11 +2311,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Failed to sign document</source>
-        <translation>Dokumendi allkirjastamine ebaõnnestus</translation>
+        <translation>Kingipaber on otsas</translation>
     </message>
     <message>
         <source>Sign certificate is not selected</source>
-        <translation>Allkirjastamise sertifikaat ei ole valitud</translation>
+        <translation>Kingipaber on valimata</translation>
     </message>
     <message>
         <source>Signing/decrypting is already in progress another window.</source>
@@ -2327,7 +2327,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Failed to decrypt document</source>
-        <translation>Dokumendi dekrüpteerimine ebaõnnestus</translation>
+        <translation>Salakirja lahti kraapimine ebaõnnestus</translation>
     </message>
 </context>
 <context>
@@ -2392,18 +2392,18 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <name>SDocumentModel</name>
     <message>
         <source>Failed remove document from container</source>
-        <translation>Faili eemaldamine ümbrikust ebaõnnestus</translation>
+        <translation>Kingi eemaldamine salvest ebaõnnestus</translation>
     </message>
     <message>
         <source>Cannot add empty file to the container.</source>
-        <translation>Tühja faili ei saa lisada ümbrikusse.</translation>
+        <translation>Tühja kingipakki ei saa lisada jõuluvana kotti.</translation>
     </message>
 </context>
 <context>
     <name>SSLConnect</name>
     <message>
         <source>Downloading picture</source>
-        <translation>Laadin pilti</translation>
+        <translation>Laadin pilti päkapikust</translation>
     </message>
 </context>
 <context>
@@ -2442,7 +2442,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>REMOVE OLD CERTIFICATES</source>
-        <translation>EEMALDA ÜLELIIGSED SERTIFIKAADID</translation>
+        <translation>EEMALDA ÜLELIIGSED KÄPAJÄLJENDID</translation>
     </message>
     <message>
         <source>INSTALL MANUALLY</source>
@@ -2462,11 +2462,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>CHECK CONNECTIONS</source>
-        <translation>KONTROLLI INTERNETIÜHENDUST</translation>
+        <translation>KONTROLLI ÜHENDUST PÕHJANABAGA</translation>
     </message>
     <message>
         <source>REFRESH CONFIGURATION</source>
-        <translation>KONTROLLI VÄRSKENDUSI</translation>
+        <translation>KONTROLLI VÄRSKEID JÕULUKIRJU</translation>
     </message>
     <message>
         <source>Language</source>
@@ -2478,15 +2478,15 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Container default location</source>
-        <translation>Ümbriku loomise vaikekataloog</translation>
+        <translation>Kingituste varasalv</translation>
     </message>
     <message>
         <source>Same folder</source>
-        <translation>Samasse kataloogi</translation>
+        <translation>Samasse sahvrisse</translation>
     </message>
     <message>
         <source>Select the default directory</source>
-        <translation>Vali vaikimisi kataloog</translation>
+        <translation>Vali vaikimisi sahvrist</translation>
     </message>
     <message>
         <source>Show print summary</source>
@@ -2498,7 +2498,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Access to validity confirmation service</source>
-        <translation>Ligipääs kehtivuskinnitusteenusele</translation>
+        <translation>Talv siin rohe-rohune, räästas tilgub nohune. Meie liumäe lagipääd küll ei kata kiilasjää. Kelle poole, kelle hoolde minna tuleks? Küllap Soome. Sääl näeb talvetaadi uhkust tuisutralli, lumerohkust. Sääl on põhjapõtru, saane ja saab sõita härmas laande. Liugled üle jää ja lume, põsil ladvaõuna jume.</translation>
     </message>
     <message>
         <source>https://www.id.ee/en/article/access-certificate-what-is-it/</source>
@@ -2522,7 +2522,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Invalid password</source>
-        <translation>Vale parool</translation>
+        <translation>Vale käpajälg</translation>
     </message>
     <message>
         <source>Access to Time-Stamping service</source>
@@ -2534,15 +2534,15 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>No proxy</source>
-        <translation>Ei kasuta proksit</translation>
+        <translation>Pane peatumata edasi</translation>
     </message>
     <message>
         <source>Use system proxy settings</source>
-        <translation>Kasuta süsteemseid proksi seadeid</translation>
+        <translation>Kasuta riikliku vahejaama</translation>
     </message>
     <message>
         <source>Manual proxy configuration</source>
-        <translation>Proksi seaded määratakse käsitsi</translation>
+        <translation>Vali endale sobiv vahejaam</translation>
     </message>
     <message>
         <source>Host</source>
@@ -2554,31 +2554,31 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation>Kasutajanimi</translation>
+        <translation>Elekter</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Parool</translation>
+        <translation>Tsrrrrr!</translation>
     </message>
     <message>
         <source>Enable proxy for SSL connections</source>
-        <translation>Luba proksi kasutamine SSL-ühenduste jaoks</translation>
+        <translation>Külasta turvameest vahejaamas</translation>
     </message>
     <message>
         <source>The connection to certificate status service is successful!</source>
-        <translation>Interneti seaded on korrektsed, kehtivuskinnitusteenus on kättesaadav!</translation>
+        <translation>Oled tuvastatud!</translation>
     </message>
     <message>
         <source>DigiDoc4 Client</source>
-        <translation>DigiDoc4 klient</translation>
+        <translation>Rõõmsaid jõule!</translation>
     </message>
     <message>
         <source>Checking updates has failed.</source>
-        <translation>Värskenduste kontrollimine on ebaõnnestunud.</translation>
+        <translation>Ei õnnestunud kingisoove uuendada.</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Palun proovi uuesti.</translation>
+        <translation>Palun proovi järgmisel aastal uuesti.</translation>
     </message>
     <message>
         <source>Server access certificate is not installed.</source>
@@ -2602,7 +2602,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Select folder</source>
-        <translation>Vali kataloog</translation>
+        <translation>Vali kingikoti asukoht</translation>
     </message>
     <message>
         <source>Server access certificates (*.p12 *.p12d *.pfx)</source>
@@ -2614,7 +2614,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Save as</source>
-        <translation>Salvesta</translation>
+        <translation>Lisa sahvrisse</translation>
     </message>
     <message>
         <source>Text files (*.txt)</source>
@@ -2622,12 +2622,12 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Failed write to file!</source>
-        <translation>Faili kirjutamine ebaõnnestus!</translation>
+        <translation>Kingituse pakkimine ebaõnnestus!</translation>
     </message>
     <message>
         <source>General</source>
         <extracomment>accessible</extracomment>
-        <translation>Üldine</translation>
+        <translation>Tujud</translation>
     </message>
     <message>
         <source>Services</source>
@@ -2637,17 +2637,17 @@ Täiendavad litsentsid ja komponendid</translation>
     <message>
         <source>Proxy</source>
         <extracomment>accessible</extracomment>
-        <translation>Proksi</translation>
+        <translation>Vahejaam</translation>
     </message>
     <message>
         <source>Diagnostics</source>
         <extracomment>accessible</extracomment>
-        <translation>Diagnostika</translation>
+        <translation>Uuringud</translation>
     </message>
     <message>
         <source>Info</source>
         <extracomment>accessible</extracomment>
-        <translation>Info</translation>
+        <translation>Info päkapikkudelt</translation>
     </message>
     <message>
         <source>First run</source>
@@ -2657,36 +2657,36 @@ Täiendavad litsentsid ja komponendid</translation>
     <message>
         <source>Refresh configuration</source>
         <extracomment>accessible</extracomment>
-        <translation>Kontrolli värskendusi</translation>
+        <translation>Kontrolli kirjakasti</translation>
     </message>
     <message>
         <source>Check connection</source>
         <extracomment>accessible</extracomment>
-        <translation>Kontrolli internetiühendust</translation>
+        <translation>Kontrolli ühendust põhjanabaga</translation>
     </message>
     <message>
         <source>Save diagnostics report</source>
         <extracomment>accessible</extracomment>
-        <translation>Salvesta diagnostika</translation>
+        <translation>Salvesta uuringud</translation>
     </message>
     <message>
         <source>Remove old certificates</source>
         <extracomment>accessible</extracomment>
-        <translation>Eemalda üleliigsed sertifikaadid</translation>
+        <translation>Eemalda üleliigsed käpalised</translation>
     </message>
     <message>
         <source>Use default settings</source>
         <extracomment>accessible</extracomment>
-        <translation>Taasta algseaded</translation>
+        <translation>Saada päkapikud puhkusele</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>accessible</extracomment>
-        <translation>Sulge</translation>
+        <translation>Järgmiste jõuludeni!</translation>
     </message>
     <message>
         <source>Redundant certificates have been successfully removed.</source>
-        <translation>Üleliigsed sertifikaadid edukalt eemaldatud.</translation>
+        <translation>Üleliigsed käpajäljed edukalt eemaldatud.</translation>
     </message>
     <message>
         <source>Help</source>
@@ -2694,11 +2694,11 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Access to mobile-ID and Smart-ID service</source>
-        <translation>Ligipääs mobiil-ID ja Smart-ID teenusele</translation>
+        <translation>Kontrolli päkapiku viisat</translation>
     </message>
     <message>
         <source>DigiDoc4 Client configuration update was successful.</source>
-        <translation>DigiDoc4 kliendi konfiguratsiooni värskendamine õnnestus.</translation>
+        <translation>DigiDoc4 Päkapiku konfiguratsiooni värskendamine õnnestus.</translation>
     </message>
     <message>
         <source>%1 version %2, released %3</source>
@@ -2706,19 +2706,19 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>YES</source>
-        <translation>JAH</translation>
+        <translation>JAH, KINDLASTI!</translation>
     </message>
     <message>
         <source>NO</source>
-        <translation>EI</translation>
+        <translation>KÕHKLEME NATUKE</translation>
     </message>
     <message>
         <source>Use default access</source>
-        <translation>Kasutan vaikimisi määratud ligipääsu</translation>
+        <translation>Kasutan käigurajaga metsateed</translation>
     </message>
     <message>
         <source>Use manually configured access</source>
-        <translation>Kasutan käsitsi määratud ligipääsu</translation>
+        <translation>Kõnnin otse üle põldude ja läbi metsa</translation>
     </message>
     <message>
         <source>Enable one-time log generation</source>
@@ -2735,15 +2735,15 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Restart DigiDoc4 Client to activate logging. Read more &lt;a href=&quot;https://www.id.ee/en/article/log-file-generation-in-digidoc4-client/&quot;&gt;here&lt;/a&gt;. Restart now?</source>
-        <translation>Logimise aktiveerimiseks taaskäivita DigiDoc4 klient. Loe täpsemalt &lt;a href=&quot;https://www.id.ee/artikkel/logifaili-genereerimine-digidoc4-kliendis/&quot;&gt;siit&lt;/a&gt;. Taaskäivita rakendus?</translation>
+        <translation>Taaskäivitame jõuluaja? Loe täpsemalt &lt;a href=&quot;https://www.id.ee/artikkel/logifaili-genereerimine-digidoc4-kliendis/&quot;&gt;siit&lt;/a&gt;. Taaskäivita rakendus?</translation>
     </message>
     <message>
         <source>Restart DigiDoc4 Client to activate logging. Read more &lt;a href=&quot;https://www.id.ee/en/article/log-file-generation-in-digidoc4-client/&quot;&gt;here&lt;/a&gt;.</source>
-        <translation>Logimise aktiveerimiseks taaskäivita DigiDoc4 klient. Loe täpsemalt &lt;a href=&quot;https://www.id.ee/artikkel/logifaili-genereerimine-digidoc4-kliendis/&quot;&gt;siit&lt;/a&gt;.</translation>
+        <translation>Taaskäivitame jõuluaja?. Loe täpsemalt &lt;a href=&quot;https://www.id.ee/artikkel/logifaili-genereerimine-digidoc4-kliendis/&quot;&gt;siit&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>The project is supported by the European Regional Development Fund</source>
-        <translation>Projekti on toetatud Euroopa Liidu Regionaalarengu Fondist</translation>
+        <translation>Projekti on toetatud Euroopa Liidu Jõuluvana ja päkapikkude jätkusuutlikuse Fondist</translation>
     </message>
 </context>
 <context>
@@ -2758,55 +2758,55 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Signer</source>
-        <translation>Allkirjastaja</translation>
+        <translation>Käpajälje tegija</translation>
     </message>
     <message>
         <source>City</source>
-        <translation>Linn</translation>
+        <translation>Pühendus</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation>Riik</translation>
+        <translation>Soovid</translation>
     </message>
     <message>
         <source>State</source>
-        <translation>Maakond</translation>
+        <translation>Veel miskit?</translation>
     </message>
     <message>
         <source>Zip</source>
-        <translation>Postikood</translation>
+        <translation>Mahub veel</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Allkiri</translation>
+        <translation>Vajuta veel</translation>
     </message>
     <message>
         <source>CLOSE</source>
-        <translation>SULGE</translation>
+        <translation>Olen terve</translation>
     </message>
     <message>
         <source>Attribute</source>
-        <translation>Atribuut</translation>
+        <translation>Asimuut</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Väärtus</translation>
+        <translation>Tähesära</translation>
     </message>
     <message>
         <source>TECHNICAL INFORMATION</source>
-        <translation>TEHNILINE INFORMATSIOON</translation>
+        <translation>Päkapikkude tagatuba</translation>
     </message>
     <message>
         <source>Timestamp</source>
-        <translation>Ajatempel</translation>
+        <translation>Käpajälje värskus</translation>
     </message>
     <message>
         <source>Warnings</source>
-        <translation>Hoiatused</translation>
+        <translation>Kusagilt kostub midagi?</translation>
     </message>
     <message>
         <source>Restrictions</source>
-        <translation>Piirangud</translation>
+        <translation>Soovitavalt mitte üle astuda</translation>
     </message>
     <message>
         <source>This e-Signature is not equivalent with handwritten signature and therefore can be used only in transactions where Qualified e-Signature is not required.</source>
@@ -2814,51 +2814,51 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tundmatu viga</translation>
+        <translation>Pakk ei avane</translation>
     </message>
     <message>
         <source>This is an invalid signature or malformed digitally signed file. The signature is not valid.</source>
-        <translation>See allkiri või allkirjastatud fail on vigane. Allkiri ei ole kehtiv.</translation>
+        <translation>Selle käpajälje või kingitusega on midagi pahasti. Käpajälg ei ole kehtiv.</translation>
     </message>
     <message>
         <source>Signature status is displayed &quot;unknown&quot; if you don&apos;t have all validity confirmation service certificates and/or certificate authority certificates installed into your computer (&lt;a href=&apos;https://www.id.ee/en/article/digidoc4-client-error-ocsp-responder-is-not-trusted-no-certificate-for-this-responder-in-local-certstore/&apos;&gt;additional information&lt;/a&gt;).</source>
-        <translation>Allkirja staatust kuvatakse &quot;teadmata&quot;, kui Sinu arvutisse pole lisatud kõiki kehtivuskinnituse teenuse sertifikaate ja/või nende kontrolliks vajalikke sertifikaate (&lt;a href=&apos;https://www.id.ee/artikkel/digidoc4-klient-viga-ocsp-responder-is-not-trusted-no-certificate-for-this-responder-in-local-certstore/&apos;&gt;lisainformatsioon&lt;/a&gt;).</translation>
+        <translation>Käpajälg on tundmatu &quot;teadmata&quot;, kui selle on teinud teine elukas/või nende kontrolliks vajalikke sertifikaate (&lt;a href=&apos;https://www.id.ee/artikkel/digidoc4-klient-viga-ocsp-responder-is-not-trusted-no-certificate-for-this-responder-in-local-certstore/&apos;&gt;lisainformatsioon&lt;/a&gt;).</translation>
     </message>
     <message>
         <source>Signer&apos;s Certificate issuer</source>
-        <translation>Allkirjastaja sertifikaadi väljaandja</translation>
+        <translation>Käpajälje sertifikaadi väljaandja</translation>
     </message>
     <message>
         <source>Signer&apos;s Certificate</source>
-        <translation>Allkirjastaja sertifikaat</translation>
+        <translation>Käpajälje sertifikaat</translation>
     </message>
     <message>
         <source>Signature method</source>
-        <translation>Allkirja meetod</translation>
+        <translation>Käpa meetod</translation>
     </message>
     <message>
         <source>Container format</source>
-        <translation>Ümbriku formaat</translation>
+        <translation>Kingituse formaat</translation>
     </message>
     <message>
         <source>Signature format</source>
-        <translation>Allkirja formaat</translation>
+        <translation>Käpa suurus</translation>
     </message>
     <message>
         <source>Signature policy</source>
-        <translation>Allkirja vorming</translation>
+        <translation>Käpa kuju</translation>
     </message>
     <message>
         <source>Signed file count</source>
-        <translation>Allkirjastatud failide arv</translation>
+        <translation>Käpajäljega kingituste arv</translation>
     </message>
     <message>
         <source>Archive Timestamp</source>
-        <translation>Arhiivi ajatempel</translation>
+        <translation>Käpajälje värskus</translation>
     </message>
     <message>
         <source>Archive TS Certificate issuer</source>
-        <translation>Arhiivi ajatempli sertifikaadi väljaandja</translation>
+        <translation>Kingisalve käpajälje värskuse ja õigsuse kontrollija</translation>
     </message>
     <message>
         <source>Archive TS Certificate</source>
@@ -2866,7 +2866,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Signature Timestamp</source>
-        <translation>Allkirja ajatempel</translation>
+        <translation>Käpajälje ajatempel</translation>
     </message>
     <message>
         <source>TS Certificate issuer</source>
@@ -2878,15 +2878,15 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>OCSP Certificate issuer</source>
-        <translation>Kehtivuskinnituse sertifikaadi väljaandja</translation>
+        <translation>Käpa kehtivuskinnituse sertifikaadi väljaandja</translation>
     </message>
     <message>
         <source>OCSP Certificate</source>
-        <translation>Kehtivuskinnituse sertifikaat</translation>
+        <translation>Käpa kehtivuskinnituse sertifikaat</translation>
     </message>
     <message>
         <source>Hash value of signature</source>
-        <translation>Allkirja sõnumilühend</translation>
+        <translation>Käpajälje sõnumilühend</translation>
     </message>
     <message>
         <source>OCSP time</source>
@@ -2894,11 +2894,11 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Claimed signing time (UTC)</source>
-        <translation>Väidetav allkirjastamise aeg (UTC)</translation>
+        <translation>Päkapiku mäletamise järgi käpajäle surumise aeg (UTC)</translation>
     </message>
     <message>
         <source>SIGNATURE_WARNING</source>
-        <translation>Allkiri on kehtiv, aga ümbrikul on mingi eripära. Tavaliselt on selline eripära tekkinud ümbriku loomisel. Kuna ümbrikku ei ole võimalik muuta ilma, et allkiri kehtetuks muutuks, näidatakse selliste ümbrike puhul &lt;a href=&apos;https://www.id.ee/artikkel/digitaalne-allkirjastamine-ja-elektroonilised-allkirjad/&apos;&gt;&lt;span style=&apos;color: #006EB5; text-decoration: underline; font-weight: 900;&apos;&gt;hoiatust&lt;/span&gt;&lt;/a&gt;.</translation>
+        <translation>Käpajälg on kehtiv, aga kingitusel on mingi eripära. Tavaliselt on selline eripära tekkinud kingituse loomisel. Kuna kingitust ei ole võimalik muuta ilma, et käpajälg muutuks, näidatakse selliste kingituste puhul &lt;a href=&apos;https://www.id.ee/artikkel/digitaalne-allkirjastamine-ja-elektroonilised-allkirjad/&apos;&gt;&lt;span style=&apos;color: #006EB5; text-decoration: underline; font-weight: 900;&apos;&gt;hoiatust&lt;/span&gt;&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>is valid</source>
@@ -2908,71 +2908,71 @@ Täiendavad litsentsid ja komponendid</translation>
     <message>
         <source>is valid</source>
         <comment>Signature</comment>
-        <translation>on kehtiv</translation>
+        <translation>Käpajälg on autentne</translation>
     </message>
     <message>
         <source>is not valid</source>
         <comment>Timestamp</comment>
-        <translation>ei ole kehtiv</translation>
+        <translation>Hmm, võõrad jäljed?</translation>
     </message>
     <message>
         <source>is not valid</source>
         <comment>Signature</comment>
-        <translation>ei ole kehtiv</translation>
+        <translation>Hmm, taaskord võõras jälg.</translation>
     </message>
     <message>
         <source>is unknown</source>
         <comment>Timestamp</comment>
-        <translation>on teadmata</translation>
+        <translation>See on täiesti uutmoodi käpajälg, mis me sellega teeme?</translation>
     </message>
     <message>
         <source>is unknown</source>
         <comment>Signature</comment>
-        <translation>on teadmata</translation>
+        <translation>Alustame uurimisega</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>accessible</extracomment>
-        <translation>Sulge</translation>
+        <translation>Anname päkapikkudele tööd</translation>
     </message>
     <message>
         <source>Signing time (UTC)</source>
-        <translation>Allkirjastamise aeg (UTC)</translation>
+        <translation>Pakkija varruka pikkus (UTC)</translation>
     </message>
     <message>
         <source>ROLE AND ADDRESS</source>
-        <translation>ROLL JA AADRESS</translation>
+        <translation>Paki saaja</translation>
     </message>
     <message>
         <source>The signature is technically correct, but it is based on the currently weak hash algorithm SHA-1, therefore it is not protected against forgery or alteration.</source>
-        <translation>Allkiri on tehniliselt korrektne, kuid põhineb praeguseks nõrgaks hinnatud räsialgorütmil SHA-1, mistõttu ei ole see kaitstud võltsimise või muutmise eest.</translation>
+        <translation>Käpajälg on tehniliselt korrektne, kuid põhineb praeguseks nõrgaks hinnatud pori segule, mistõttu ei ole see kaitstud võltsimise või muutmise eest.</translation>
     </message>
 </context>
 <context>
     <name>SignatureItem</name>
     <message>
         <source>Signature is valid</source>
-        <translation>Allkiri on kehtiv</translation>
+        <translation>Keegi mängis vale käpaga</translation>
     </message>
     <message>
         <source>Timestamp is valid</source>
-        <translation>Ajatempel on kehtiv</translation>
+        <translation>Antud värske käpajälg on kehtiv</translation>
     </message>
     <message>
         <source>Signature is not valid</source>
-        <translation>Allkiri ei ole kehtiv</translation>
+        <translation>See käpajälg on liiga kulunud</translation>
     </message>
     <message>
         <source>Timestamp is not valid</source>
-        <translation>Ajatempel ei ole kehtiv</translation>
+        <translation>Siin vist on olnud kunagi käpajälg</translation>
     </message>
     <message>
         <source>Signature is unknown</source>
-        <translation>Allkiri on teadmata</translation>
+        <translation>Tuvastamatu käpajälg</translation>
     </message>
     <message>
         <source>Timestamp is unknown</source>
-        <translation>Ajatempel on teadmata</translation>
+        <translation>Oled tuvastamata?</translation>
     </message>
     <message>
         <source>Warnings</source>
@@ -2984,7 +2984,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Signed on</source>
-        <translation>Allkirjastatud</translation>
+        <translation>Käppa näinud</translation>
     </message>
     <message>
         <source>time</source>
@@ -2992,93 +2992,93 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Remove signature %1?</source>
-        <translation>Kas eemaldada allkiri %1?</translation>
+        <translation>Kas pühime käpajälje ära %1?</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Ära puutu käpaga paberit</translation>
     </message>
     <message>
         <source>Remove signature</source>
         <extracomment>accessible</extracomment>
-        <translation>Eemalda allkiri</translation>
+        <translation>Pühi ruttu käpajälg ära</translation>
     </message>
     <message>
         <source>To view signature details press enter or space</source>
         <extracomment>accessible</extracomment>
-        <translation>Allkirja detailide vaatamiseks vajuta space või enter</translation>
+        <translation>Käpajälje detailide vaatamiseks vajuta space või enter</translation>
     </message>
 </context>
 <context>
     <name>SmartIDDialog</name>
     <message>
         <source>SIGN</source>
-        <translation>ALLKIRJASTA</translation>
+        <translation>Viska käpp alla</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>KATKESTA</translation>
+        <translation>Tõsta käpad üles</translation>
     </message>
     <message>
         <source>Personal code</source>
-        <translation>Isikukood</translation>
+        <translation>Päkapiku vanus</translation>
     </message>
     <message>
         <source>Enter your personal code to sign with Smart-ID</source>
-        <translation>Sisesta oma isikukood Smart-IDga allkirjastamiseks</translation>
+        <translation>Sisesta päkapiku vanus Smart-käpaga tuvastmiseks</translation>
     </message>
     <message>
         <source>Remember me</source>
-        <translation>Pea mind meeles</translation>
+        <translation>Pea ikka päkapikku meeles</translation>
     </message>
     <message>
         <source>Personal code is not valid</source>
-        <translation>Isikukood pole kehtiv</translation>
+        <translation>Päkapikk ületas kiirust</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation>Riik</translation>
+        <translation>Soovid</translation>
     </message>
     <message>
         <source>Estonia</source>
-        <translation>Eesti</translation>
+        <translation>Taaskasutatud pakkepaber - tavline pakkimisviis Eestis</translation>
     </message>
     <message>
         <source>Lithuania</source>
-        <translation>Leedu</translation>
+        <translation>Käi teiste naabrite juures ka</translation>
     </message>
     <message>
         <source>Latvia</source>
-        <translation>Läti</translation>
+        <translation>Käi naabrite juures ka</translation>
     </message>
     <message>
         <source>Cancel</source>
         <extracomment>accessible</extracomment>
-        <translation>Katkesta</translation>
+        <translation>Tõstan käpad üles</translation>
     </message>
     <message>
         <source>Sign</source>
         <extracomment>accessible</extracomment>
-        <translation>Allkirjastan</translation>
+        <translation>Viskan käpa alla</translation>
     </message>
 </context>
 <context>
     <name>SslCertificate</name>
     <message>
         <source>All application policies</source>
-        <translation>Kõik kasutusalad</translation>
+        <translation>Pühadetervitus</translation>
     </message>
     <message>
         <source>Proves your identity to a remote computer</source>
-        <translation>Tuvastab isikut serverarvutile</translation>
+        <translation>Tuvastab päkapiku jõuluvanele</translation>
     </message>
     <message>
         <source>Protects email messages</source>
-        <translation>Kaitseb e-posti sõnumeid</translation>
+        <translation>Kaitseb e-Rudolphi pakke</translation>
     </message>
     <message>
         <source>OCSP signing</source>
-        <translation>OCSP allkirjastamine</translation>
+        <translation>Kingile käpajälje tegemine</translation>
     </message>
     <message>
         <source>Digital signature</source>
@@ -3122,26 +3122,26 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Time Stamping</source>
-        <translation>Ajatempel</translation>
+        <translation>Päkapiku ajaarvamine</translation>
     </message>
     <message>
         <source>Ensures the identity of a remote computer</source>
-        <translation>Tagab serverarvuti identiteedi</translation>
+        <translation>Tagab jõuluvana identiteedi</translation>
     </message>
 </context>
 <context>
     <name>VerifyCert</name>
     <message>
         <source>Certificate has expired!</source>
-        <translation>Sertifikaat on aegunud!</translation>
+        <translation>Käpajälje pori on kuivanud!</translation>
     </message>
     <message>
         <source>Certificate is revoked!</source>
-        <translation>Sertifikaat on tühistatud!</translation>
+        <translation>Käpajälg on minema pühitud!</translation>
     </message>
     <message>
         <source>Certificate %1is valid%2 until %3</source>
-        <translation>Sertifikaat %1kehtib%2 kuni %3</translation>
+        <translation>Käpajälg %1kehtib%2 kuni %3</translation>
     </message>
     <message>
         <source>Authentication certificate</source>
@@ -3153,19 +3153,19 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>CHANGE PIN%1</source>
-        <translation>MUUDA PIN%1</translation>
+        <translation>MUUDA KÄPP%1</translation>
     </message>
     <message>
         <source>Forgot PIN%1?</source>
-        <translation>Unustasid PIN%1-koodi?</translation>
+        <translation>Unustasid KÄPP%1-koodi?</translation>
     </message>
     <message>
         <source>Signing certificate</source>
-        <translation>Allkirjastamise sertifikaat</translation>
+        <translation>Käpajälje tint</translation>
     </message>
     <message>
         <source>Check the details of the certificate</source>
-        <translation>Vaata sertifikaadi detaile</translation>
+        <translation>Vaata käpa-tindi detaile</translation>
     </message>
     <message>
         <source>PIN%1 can not be used because the certificate has expired.</source>
@@ -3199,39 +3199,39 @@ Täiendavad litsentsid ja komponendid</translation>
     <message>
         <source>key has been used %1 times</source>
         <comment>pin2</comment>
-        <translation>Sertifikaati on kasutatud %1 korda</translation>
+        <translation>Käpajälge on kasutatud %1 korda</translation>
     </message>
     <message>
         <source>Certificate for Encryption</source>
-        <translation>Krüpteerimissertifikaat</translation>
+        <translation>Käpajälje tindipott</translation>
     </message>
     <message>
         <source>PIN%1 has been blocked because PIN%1 code has been entered incorrectly 3 times.</source>
-        <translation>PIN%1 on blokeeritud, kuna PIN%1-koodi on sisestatud 3 korda valesti.</translation>
+        <translation>KÄPP%1 on blokeeritud, kuna KÄPP%1-jälge on sisestatud 3 korda valesti.</translation>
     </message>
     <message>
         <source>Unblock to reuse PIN%1.</source>
-        <translation>Tühista blokeering, et PIN%1 taas kasutada.</translation>
+        <translation>Tühista blokeering, et KÄPP%1 taas kasutada.</translation>
     </message>
     <message>
         <source>Check certificate status</source>
-        <translation>Kontrolli sertifikaadi staatust</translation>
+        <translation>Kontrolli päkapiku passi kehtivust</translation>
     </message>
     <message>
         <source>Your ID-card authentication certificate is valid. </source>
-        <translation>Sinu ID-kaardi isikutuvastamise sertifikaat kehtib. </translation>
+        <translation>Sinu Jõuluvana isikutuvastamise sertifikaat kehtib. </translation>
     </message>
     <message>
         <source>Your ID-card signing certificate is valid. </source>
-        <translation>Sinu ID-kaardi allkirjastamise sertifikaat kehtib. </translation>
+        <translation>Sinu Jõuluvana käpajälje tint kehtib. </translation>
     </message>
     <message>
         <source>Your ID-card signing certificate is not valid. You need valid certificates to use your ID-card electronically. </source>
-        <translation>Sinu ID-kaardi allkirjastamise sertifikaat ei kehti. ID-kaardi elektrooniliseks kasutamiseks on vaja kehtivaid sertifikaate. </translation>
+        <translation>Sinu Jõuluvana käpajälje tint ei kehti. Jõuluvana elektrooniliseks kasutamiseks on vaja kehtivat tinti. </translation>
     </message>
     <message>
         <source>Your ID-card authentication certificate is not valid. You need valid certificates to use your ID-card electronically. </source>
-        <translation>Sinu ID-kaardi isikutuvastamise sertifikaat ei kehti. ID-kaardi elektrooniliseks kasutamiseks on vaja kehtivaid sertifikaate. </translation>
+        <translation>Sinu Jõuluvana isikutuvastamise sertifikaat ei kehti. Jõuluvana elektrooniliseks kasutamiseks on vaja kehtivaid sertifikaate. </translation>
     </message>
     <message>
         <source>Read more &lt;a href=&quot;https://www.id.ee/en/article/validity-of-id-card-certificates/&quot;&gt;here&lt;/a&gt;.</source>
@@ -3287,29 +3287,29 @@ Täiendavad litsentsid ja komponendid</translation>
     <message numerus="yes">
         <source>%n signatures are not valid!</source>
         <translation>
-            <numerusform>%n allkiri ei ole kehtiv!</numerusform>
-            <numerusform>%n allkirja ei ole kehtivad!</numerusform>
+            <numerusform>%n käpajälg ei ole kehtiv!</numerusform>
+            <numerusform>%n käpajälg ei ole kehtivad!</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n timestamps are not valid!</source>
         <translation>
-            <numerusform>%n ajatempel ei ole kehtiv!</numerusform>
-            <numerusform>%n ajatemplit ei ole kehtivad!</numerusform>
+            <numerusform>%n käpajälje värskus ei ole kehtiv!</numerusform>
+            <numerusform>%n käpajälje värskus ei ole kehtivad!</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n signatures are unknown!</source>
         <translation>
-            <numerusform>%n allkiri on teadmata!</numerusform>
-            <numerusform>%n allkirja on teadmata!</numerusform>
+            <numerusform>%n käpajälg on teadmata!</numerusform>
+            <numerusform>%n käpajälg on teadmata!</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n timestamps are unknown!</source>
         <translation>
-            <numerusform>%n ajatempel on teadmata!</numerusform>
-            <numerusform>%n ajatemplit on teadmata!</numerusform>
+            <numerusform>%n Päkapiku ajaarvamine on sassis!</numerusform>
+            <numerusform>%n Päkapiku ajaarvamine on sassis!</numerusform>
         </translation>
     </message>
     <message>
@@ -3330,7 +3330,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>An empty file is attached to the container. Remove the empty file from the container to sign.</source>
-        <translation>Ümbrikule on lisatud tühi fail. Allkirjastamiseks eemalda ümbrikust tühi fail.</translation>
+        <translation>Kingikotis on üks tühi kingikarp. Käpajälje lisamiseks eemalda kotist tühi kingikarp.</translation>
     </message>
     <message>
         <source>You can find instructions on how to get a new document from </source>
@@ -3346,11 +3346,11 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Certificates expire soon! </source>
-        <translation>Sertifikaadid aeguvad varsti! </translation>
+        <translation>Käpad vajavad varsti uue jäljendi võtmist! </translation>
     </message>
     <message>
         <source>Certificates have expired! </source>
-        <translation>Sertifikaadid on aegunud! </translation>
+        <translation>Käpajäljed on aegunud! </translation>
     </message>
 </context>
 <context>

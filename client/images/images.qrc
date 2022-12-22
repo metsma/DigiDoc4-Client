@@ -82,5 +82,6 @@
 		<file>Struktuurifondid.svg</file>
 		<file>vapilehed.svg</file>
 		<file>wait.svg</file>
+		<file>background.png</file>
 	</qresource>
 </RCC>
