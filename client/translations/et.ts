@@ -1278,7 +1278,7 @@
     </message>
     <message>
         <source>Enter personal code, company or registry code</source>
-        <translation>Sisesta päkapiku vanus;/translation>
+        <translation>Sisesta päkapiku vanus</translation>
     </message>
     <message>
         <source>Add recipients</source>
