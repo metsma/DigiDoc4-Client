@@ -1025,7 +1025,7 @@
     </message>
     <message>
         <source>DigiDoc Client can also be used to encrypt data and decrypt the previously encrypted data. For encryption the program uses the authentication certificate of the ID-card.</source>
-        <translation>Salakirjaga saad saata salajasi jõulusoove kõigile ja ainult nemad saadavad oma käpaga neid avada.</translation>
+        <translation>Salakirjaga saad saata salajasi jõulusoove kõigile ja ainult nemad saavad oma käpaga neid avada.</translation>
     </message>
     <message>
         <source>Manage your ID-card’s PIN/PUK codes and check personal data.</source>
@@ -2498,7 +2498,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Access to validity confirmation service</source>
-        <translation>Talv siin rohe-rohune, räästas tilgub nohune. Meie liumäe lagipääd küll ei kata kiilasjää. Kelle poole, kelle hoolde minna tuleks? Küllap Soome. Sääl näeb talvetaadi uhkust tuisutralli, lumerohkust. Sääl on põhjapõtru, saane ja saab sõita härmas laande. Liugled üle jää ja lume, põsil ladvaõuna jume.</translation>
+        <translation>Talv siin rohe-rohune, räästas tilgub nohune. Meie liumäe lagipääd küll ei kata kiilasjää.</translation>
     </message>
     <message>
         <source>https://www.id.ee/en/article/access-certificate-what-is-it/</source>
