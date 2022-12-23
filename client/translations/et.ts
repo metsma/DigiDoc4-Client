@@ -2454,7 +2454,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>SHOW CERTIFICATE</source>
-        <translation>Kontrolli päkapikku/translation>
+        <translation>Kontrolli päkapikku</translation>
     </message>
     <message>
         <source>USE DEFAULT SETTINGS</source>
