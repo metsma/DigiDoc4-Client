@@ -560,7 +560,7 @@
     </message>
     <message>
         <source>STARTING</source>
-        <translation>← ALGUSESSE</translation>
+        <translation>← KINGITUPPA</translation>
     </message>
     <message>
         <source>The document has already been signed by you.</source>
@@ -657,11 +657,11 @@
     <name>Diagnostics</name>
     <message>
         <source>Arguments:</source>
-        <translation>Argumendid:</translation>
+        <translation>Jõuluküla asukoht:</translation>
     </message>
     <message>
         <source>Library paths:</source>
-        <translation>Teegi otsing:</translation>
+        <translation>Jõulumaa peavärav:</translation>
     </message>
     <message>
         <source>Central Configuration</source>
@@ -669,7 +669,7 @@
     </message>
     <message>
         <source>Smart Card service status: </source>
-        <translation>Smart Card teenuse staatus: </translation>
+        <translation>Toimetused jõulusaani ümber: </translation>
     </message>
     <message>
         <source>Running</source>
@@ -689,7 +689,7 @@
     </message>
     <message>
         <source>Locale:</source>
-        <translation>Keeleseaded:</translation>
+        <translation>Kõnepruuk:</translation>
     </message>
     <message>
         <source>Base version:</source>
@@ -717,7 +717,7 @@
     </message>
     <message>
         <source>Browsers:</source>
-        <translation>Veebibrauserid:</translation>
+        <translation>Piparkoogi krõbistajad:</translation>
     </message>
     <message>
         <source>USB info:</source>
@@ -741,7 +741,7 @@
     </message>
     <message>
         <source>ATRfiltr service status: </source>
-        <translation>ATRfiltr teenuse staatus: </translation>
+        <translation>Tööka päkapiku staatus: </translation>
     </message>
     <message>
         <source>Not found</source>
@@ -749,7 +749,7 @@
     </message>
     <message>
         <source>Certificate Propagation service status: </source>
-        <translation>Certificate Propagation teenuse staatus: </translation>
+        <translation>Kui salavõit ei kasuta, siis: </translation>
     </message>
     <message>
         <source>is set manually</source>
@@ -1017,15 +1017,15 @@
     </message>
     <message>
         <source>Manage your eID-s</source>
-        <translation>Oma eID-sid hallata</translation>
+        <translation>Päkapiku salavõtmed</translation>
     </message>
     <message>
         <source>DigiDoc Client can be used to sign digitally with ID-card, mobile-ID and Smart-ID, check the validity of digital signatures and open and save documents inside the signature container.</source>
-        <translation>DigiDoc rakendusega saad dokumentidele anda ID-kaardi, mobiil-ID ja Smart-ID-ga digitaalallkirju, kontrollida allkirjade kehtivust ning avada ja salvestada ümbrikus sisalduvaid dokumente.</translation>
+        <translation>Jõulumaa töökojas saad oma kingid privaatselt käpajäljega sulgeda. Nii teavad kõik kelle kingitus see on.</translation>
     </message>
     <message>
         <source>DigiDoc Client can also be used to encrypt data and decrypt the previously encrypted data. For encryption the program uses the authentication certificate of the ID-card.</source>
-        <translation>DigiDoc rakendusega saad ka andmeid salasta­da ja krüpteeritud andmeid muuta uuesti kõigile loetavaks. Salastatud konfidentsiaalseid doku­mente saavad lugeda ainult soovitud inimesed.</translation>
+        <translation>Salakirjaga saad saata salajasi jõulusoove kõigile ja ainult nemad saadavad oma käpaga neid avada.</translation>
     </message>
     <message>
         <source>Manage your ID-card’s PIN/PUK codes and check personal data.</source>
@@ -1049,15 +1049,15 @@
     </message>
     <message>
         <source>To sign the file, drag it from your computer to the DigiDoc application or click the &quot;... or load a file from disk&quot; button. You can drag or select multiple files at a time.</source>
-        <translation>Faili allkirjastamiseks lohista fail oma arvutist DigiDoc rakendusse või vajuta nupul “… või vali fail kettalt”. Võid lohistada või valida ka mitu faili korraga.</translation>
+        <translation>Jõuluvana sõber suur, kinetoob ta jõulukuul. Kuuse alla peidab nad, pea siis meeles kust neid saab.</translation>
     </message>
     <message>
         <source>Once the files have been selected, check them and choose whether you want to sign with ID-card, mobile-ID or Smart-ID. You can also save the container without signing.</source>
-        <translation>Kui failid on valitud, siis kontrolli need üle ning vali, kas soovid allkirjastada ID-kaardi, mobiil-ID või Smart-ID-ga. Võid salvestada ümbriku ka allkirjasta­mata.</translation>
+        <translation>Kui esimeses punktis kingituse pakkimine läks luuletuse saatel, siis siin saad valida, millise käpajälje sa pakile paned.</translation>
     </message>
     <message>
         <source>By entering the PIN2 code, you will have signed the document with digital signature that by law is equal to the signature signed by hand.</source>
-        <translation>Sisestades PIN2-koodi, annad digitaalse allkirja, mis on seaduse ees võrdne omakäelise allkirja­ga.</translation>
+        <translation>Sisestades KÄPP2-koodi, annad oma tugeva käpajälje, mis on seaduse ees võrdne oma ehtsa käpaga.</translation>
     </message>
     <message>
         <source>How to encrypt documents?</source>
@@ -1073,36 +1073,36 @@
     </message>
     <message>
         <source>A recipient must be selected in order to encrypt data. Drag the file to be encrypted from your computer to the DigiDoc application or select a file from the disk. You can drag or select multiple files at a time.</source>
-        <translation>Lohista krüpteeritav fail oma arvutist DigiDoc rakendusse või vali fail kettalt. Võid lohistada või valida ka mitu faili korraga.</translation>
+        <translation>Lohista või kirjuta salakiri mille soovid salaja edasi saata.</translation>
     </message>
     <message>
         <source>Select people who can open the container.</source>
-        <translation>Vali inimesed, kes saavad faili avada.</translation>
+        <translation>Siin saad määrata salakirja saaja, vaid tema suudab selle kirja avada.</translation>
     </message>
     <message>
         <source>Click the &quot;Encrypt&quot; button and the file is now encrypted. You now have the option to open the location of the container or forward the file by e-mail.</source>
-        <translation>Vajuta nupul “Krüpteeri” ning fail ongi krüpteeri­tud. Sul on nüüd võimalik avada krüpteeritud faili asu­koht või edastada fail e-postiga.</translation>
+        <translation>Nüüd vajuta nupule, et saaksid lisada oma käpajälje ja salakirja e-Rudolphiga ära saata.</translation>
     </message>
     <message>
         <source>How to manage your electronic identities?</source>
-        <translation>Kuidas hallata oma eID-sid?</translation>
+        <translation>Kuidas hallata Jõuluvana abilisi?</translation>
     </message>
     <message>
         <source>Manage PIN and PUK codes</source>
-        <translation>Halda PIN- ja PUK-koode</translation>
+        <translation>Halda Käpajälge ja Salavõtmeid</translation>
     </message>
     <message>
         <source>Check personal data</source>
-        <translation>Kontrolli isikuandmeid</translation>
+        <translation>Kontrolli päkapikku</translation>
     </message>
     <message>
         <source>Under &quot;My eID&quot;, you will find the option to modify your PIN1, PIN2 and PUK, and the details of the certificates. Here you can also unlock the PUK code of your blocked PIN.</source>
-        <translation>“Saladused” alt leiad oma PIN1-, PIN2- ja PUK-koodi muutmise võimaluse ning sertifikaatide detail­andmed. Siin saad ka oma blokeeritud PIN-e PUK-koodi abil lukust lahti teha.</translation>
+        <translation>“Saladused” alt leiad oma KÄPP1-, KÄPP2- ja Salavõtme muutmise võimaluse. Siin saad ka oma blokeeritud käpad salavõtmete abil lukust lahti teha.</translation>
     </message>
     <message>
         <source>Continue</source>
         <extracomment>accessible</extracomment>
-        <translation>Edasi</translation>
+        <translation>Sammume edasi</translation>
     </message>
     <message>
         <source>View introduction</source>
@@ -1125,7 +1125,7 @@
     </message>
     <message>
         <source>Go to EID intro</source>
-        <translation>Mine eID tutvustuse juurde</translation>
+        <translation>Mine saladuste juurde</translation>
     </message>
     <message>
         <source>Go to encryption intro</source>
@@ -1133,34 +1133,34 @@
     </message>
     <message>
         <source>&quot;My eID&quot; also provides a good overview of the status and contact information of the ID card inserted in the card reader.</source>
-        <translation>&quot;Saladused&quot; annab ka hea ülevaate kaardilugejasse sisestatud ID-kaardi staatusest ja kontaktandmetest.</translation>
+        <translation>&quot;Saladused&quot; annab ka hea ülevaate Jõuluvana kohalolekust, saanist ja toimetavast päkapikust.</translation>
     </message>
 </context>
 <context>
     <name>InfoStack</name>
     <message>
         <source>DOWNLOAD</source>
-        <translation>LAADI PÄKAPIKU PILT</translation>
+        <translation>PÄKAPIKU PILT</translation>
     </message>
     <message>
         <source>CITIZENSHIP</source>
-        <translation>KODAKONDSUS</translation>
+        <translation>PÄKAPIKU KÜLA</translation>
     </message>
     <message>
         <source>GIVEN NAMES</source>
-        <translation>EESNIMI</translation>
+        <translation>PÄKAPIKU EESNIMI</translation>
     </message>
     <message>
         <source>PERSONAL CODE</source>
-        <translation>ISIKUKOOD</translation>
+        <translation>PÄKAPIKU VANUS</translation>
     </message>
     <message>
         <source>DOCUMENT</source>
-        <translation>DOKUMENT</translation>
+        <translation>KINGANUMBER</translation>
     </message>
     <message>
         <source>SURNAME</source>
-        <translation>PEREKONNANIMI</translation>
+        <translation>PÄKAPIKU PEREKONNANIMI</translation>
     </message>
     <message>
         <source>NAME</source>
@@ -1484,7 +1484,7 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Open file for encryption or decryption</source>
-        <translation>..VÕI VALI MÕNI VARASEMALT VALMIS MÕELDUD SALASOOV</translation>
+        <translation>.. VALI MÕNI VARASEM SALASOOV</translation>
     </message>
     <message>
         <source>signature container</source>
@@ -2414,23 +2414,23 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>GENERAL</source>
-        <translation>ÜLDINE</translation>
+        <translation>Niisama</translation>
     </message>
     <message>
         <source>SERVICES</source>
-        <translation>TEENUSED</translation>
+        <translation>Teekond</translation>
     </message>
     <message>
         <source>PROXY</source>
-        <translation>PROKSI</translation>
+        <translation>Puhka jalga</translation>
     </message>
     <message>
         <source>DIAGNOSTICS</source>
-        <translation>DIAGNOSTIKA</translation>
+        <translation>Uuri maailma</translation>
     </message>
     <message>
         <source>INFO</source>
-        <translation>INFO</translation>
+        <translation>Soovid veel kolada?</translation>
     </message>
     <message>
         <source>CLOSE</source>
@@ -2442,11 +2442,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>REMOVE OLD CERTIFICATES</source>
-        <translation>EEMALDA ÜLELIIGSED KÄPAJÄLJENDID</translation>
+        <translation>PÜHI ÜLELIIGSED KÄPAJÄLJED</translation>
     </message>
     <message>
         <source>INSTALL MANUALLY</source>
-        <translation>PAIGALDA KÄSITSI</translation>
+        <translation>Aja päkapikk tööle</translation>
     </message>
     <message>
         <source>SAVE DIAGNOSTICS REPORT TO DISK</source>
@@ -2454,7 +2454,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>SHOW CERTIFICATE</source>
-        <translation>NÄITA TŌENDIT</translation>
+        <translation>Kontrolli päkapikku/translation>
     </message>
     <message>
         <source>USE DEFAULT SETTINGS</source>
@@ -2470,11 +2470,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Keel</translation>
+        <translation>Jõuluvana kõnepruuk</translation>
     </message>
     <message>
         <source>Online TSL digest check</source>
-        <translation>Kontrolli TSL värskendust</translation>
+        <translation>Kontrolli jõulumaa värskemaid uudiseid</translation>
     </message>
     <message>
         <source>Container default location</source>
@@ -2490,11 +2490,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Show print summary</source>
-        <translation>Näita kinnituslehte</translation>
+        <translation>Näita käpajälje infot</translation>
     </message>
     <message>
         <source>Ask role and address info on signing</source>
-        <translation>Küsi rolli ja aadressi igal allkirjastamisel</translation>
+        <translation>Küsi päkapiku infot igal käpa panekul</translation>
     </message>
     <message>
         <source>Access to validity confirmation service</source>
@@ -2510,7 +2510,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Ignore server access certificate (IP based access)</source>
-        <translation>Ignoreeri juurdepääsutõendit (IP-põhine ligipääs)</translation>
+        <translation>Ignoreeri olemasolevaid radu (Päkapik tuiskab otse läbi metsa)</translation>
     </message>
     <message>
         <source>Enter server access certificate password.</source>
@@ -2526,7 +2526,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Access to Time-Stamping service</source>
-        <translation>Ligipääs ajatempliteenusele</translation>
+        <translation>Ligipääs päkapiku ajaarvamisele</translation>
     </message>
     <message>
         <source>https://www.id.ee/en/article/for-organisations-that-sign-large-quantities-of-documents-using-digidoc4-client/</source>
@@ -2546,11 +2546,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Host</source>
-        <translation>Host</translation>
+        <translation>Võõrustaja</translation>
     </message>
     <message>
         <source>Port</source>
-        <translation>Port</translation>
+        <translation>Metsamajake</translation>
     </message>
     <message>
         <source>Username</source>
@@ -2586,7 +2586,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Issued to: %1&lt;br /&gt;Valid to: %2 %3</source>
-        <translation>Kellele väljastatud: %1&lt;br /&gt;Kehtib kuni: %2 %3</translation>
+        <translation>Jõulumaa juhataja: %1&lt;br /&gt;Kehtib kuni: %2 %3</translation>
     </message>
     <message>
         <source>expired</source>
@@ -2596,9 +2596,9 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
         <source>&lt;p&gt;Estonian ID-software is released by Information Systems&apos;s Authority&lt;br /&gt;
 In case of questions please contact our support via &lt;a href=&quot;https://www.id.ee/en/id-help/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#006eb5;&quot;&gt;id.ee&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 Additional licenses and components</source>
-        <translation>&lt;p&gt;ID-tarkvara arendaja Riigi Infosüsteemi Amet&lt;br /&gt;
-Küsimuste korral võta ühendust &lt;a href=&quot;https://www.id.ee/id-abikeskus/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#006eb5;&quot;&gt;ID-abikeskusega&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-Täiendavad litsentsid ja komponendid</translation>
+        <translation>&lt;p&gt;Jõulumaa arendaja Riigi Infosüsteemi Amet&lt;br /&gt;
+Jõulumaa lükkamata lume korral võta ühendust &lt;a href=&quot;https://www.id.ee/id-abikeskus/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#006eb5;&quot;&gt;ID-abikeskusega&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+Täiendavad Jõulumaa abilised</translation>
     </message>
     <message>
         <source>Select folder</source>
