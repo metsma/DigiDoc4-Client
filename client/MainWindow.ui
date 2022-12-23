@@ -575,13 +575,13 @@ color: #041E42;</string>
               <widget class="QPushButton" name="signIntroButton">
                <property name="minimumSize">
                 <size>
-                 <width>240</width>
+                 <width>370</width>
                  <height>45</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>240</width>
+                 <width>370</width>
                  <height>45</height>
                 </size>
                </property>
@@ -676,13 +676,13 @@ background-position: bottom;
               <widget class="QPushButton" name="cryptoIntroButton">
                <property name="minimumSize">
                 <size>
-                 <width>240</width>
+                 <width>370</width>
                  <height>45</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>240</width>
+                 <width>370</width>
                  <height>45</height>
                 </size>
                </property>
