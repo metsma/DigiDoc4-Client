@@ -184,7 +184,7 @@
     </message>
     <message>
         <source>Authentication certificate</source>
-        <translation>Isikutuvastamise sertifikaat</translation>
+        <translation>Võti päkapiku südamesse</translation>
     </message>
     <message>
         <source>Expired on</source>
@@ -195,7 +195,7 @@
     <name>Application</name>
     <message>
         <source>Failed to initalize.</source>
-        <translation>Käivitamine ebaõnnestus.</translation>
+        <translation>Saani käivitamine ebaõnnestus.</translation>
     </message>
     <message>
         <source>Caught exception!</source>
@@ -572,7 +572,7 @@
     </message>
     <message>
         <source>DigiDoc4 Client</source>
-        <translation>Jõuluvana saan</translation>
+        <translation>Jõulumaa rakendus</translation>
     </message>
     <message>
         <source>Change</source>
@@ -1029,7 +1029,7 @@
     </message>
     <message>
         <source>Manage your ID-card’s PIN/PUK codes and check personal data.</source>
-        <translation>Halda oma ID-kaardi PIN- ja PUK-koode ning kontrolli isikuandmeid.</translation>
+        <translation>Halda oma Jõuluvana ja päkapiku käpajälgi ja päkapiku salavõtit ning kontrolli neid koos Jõuluvanaga.</translation>
     </message>
     <message>
         <source>How to sign document digitally?</source>
@@ -1097,7 +1097,7 @@
     </message>
     <message>
         <source>Under &quot;My eID&quot;, you will find the option to modify your PIN1, PIN2 and PUK, and the details of the certificates. Here you can also unlock the PUK code of your blocked PIN.</source>
-        <translation>“Minu eID” alt leiad oma PIN1-, PIN2- ja PUK-koodi muutmise võimaluse ning sertifikaatide detail­andmed. Siin saad ka oma blokeeritud PIN-e PUK-koodi abil lukust lahti teha.</translation>
+        <translation>“Saladused” alt leiad oma PIN1-, PIN2- ja PUK-koodi muutmise võimaluse ning sertifikaatide detail­andmed. Siin saad ka oma blokeeritud PIN-e PUK-koodi abil lukust lahti teha.</translation>
     </message>
     <message>
         <source>Continue</source>
@@ -1133,7 +1133,7 @@
     </message>
     <message>
         <source>&quot;My eID&quot; also provides a good overview of the status and contact information of the ID card inserted in the card reader.</source>
-        <translation>&quot;Minu eID&quot; annab ka hea ülevaate kaardilugejasse sisestatud ID-kaardi staatusest ja kontaktandmetest.</translation>
+        <translation>&quot;Saladused&quot; annab ka hea ülevaate kaardilugejasse sisestatud ID-kaardi staatusest ja kontaktandmetest.</translation>
     </message>
 </context>
 <context>
@@ -1278,7 +1278,7 @@
     </message>
     <message>
         <source>Enter personal code, company or registry code</source>
-        <translation>Sisesta päkapiku vanus</translation>
+        <translation>Sisesta päkapiku vanus;/translation>
     </message>
     <message>
         <source>Add recipients</source>
@@ -1476,7 +1476,7 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Open file for signing or verifying</source>
-        <translation>... VÕI VALI SOBIV KINGITUS SAHVRIST</translation>
+        <translation>..VÕI VALI SOBIV KINGITUS SAHVRIST</translation>
     </message>
     <message>
         <source>Drag file here for encryption ...</source>
@@ -1484,7 +1484,7 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Open file for encryption or decryption</source>
-        <translation>... VÕI VALI MÕNI VARASEMALT VALMIS MÕELDUD SALASOOV</translation>
+        <translation>..VÕI VALI MÕNI VARASEMALT VALMIS MÕELDUD SALASOOV</translation>
     </message>
     <message>
         <source>signature container</source>
@@ -1766,7 +1766,7 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Phone is not in coverage area</source>
-        <translation>Päkapikk on kadunud</translation>
+        <translation>Päkapikk on kadunud;/translation>
     </message>
     <message>
         <source>Request sending error</source>
@@ -1949,15 +1949,15 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <name>PageIcon</name>
     <message>
         <source>SIGNATURE</source>
-        <translation>ALLKIRI</translation>
+        <translation>Pakilabor</translation>
     </message>
     <message>
         <source>CRYPTO</source>
-        <translation>KRÜPTO</translation>
+        <translation>Salakiri</translation>
     </message>
     <message>
         <source>My eID</source>
-        <translation>Minu eID</translation>
+        <translation>Saladused</translation>
     </message>
 </context>
 <context>
@@ -2103,31 +2103,31 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <message>
         <source>Valid puk code</source>
         <extracomment>accessible</extracomment>
-        <translation>Kehtiv puk kood</translation>
+        <translation>Kehtiv päkapiku salavõti</translation>
     </message>
     <message>
         <source>PUK code is used for unblocking the certificates, when PIN1 or PIN2 has been entered 3 times incorrectly.</source>
-        <translation>PUK-koodi abil saab tühistada sertifikaadi blokeeringu, kui PIN1- või PIN2-koodi on 3 korda järjest valesti sisestatud.</translation>
+        <translation>Päkapiku salavõtme abil saab tühistada võtme päkapiku südamesse.  kui KÄPP1- või KÄPP2-jälge on 3 korda järjest valesti sisestatud.</translation>
     </message>
     <message>
         <source>If you forget the PUK code or the certificates remain blocked, you have to visit the &lt;a href=&quot;https://www.politsei.ee/en/&quot;&gt;&lt;span style=&quot;color: #006EB5; text-decoration: none;&quot;&gt;service center&lt;/span&gt;&lt;/a&gt; to obtain new codes.</source>
-        <translation>Kui peale vahetamist PUK-kood läheb meelest ära ja sertifikaat jääb blokeerituks kolme vale PIN1 või PIN2 sisestamise järel, siis ainus võimalus ID-kaart jälle tööle saada on pöörduda &lt;a href=&quot;https://www.politsei.ee&quot;&gt;&lt;span style=&quot;color: #006EB5; text-decoration: none;&quot;&gt;klienditeeninduspunkti&lt;/span&gt;&lt;/a&gt; poole.</translation>
+        <translation>Kui peale vahetamist päkapiku salavõti läheb meelest ära ja võti päkapiku südamesse jääb blokeerituks kolme vale KÄPP1 või KÄPP2 sisestamise järel, siis ainus võimalus Jõuluvana juures tööle saada on pöörduda &lt;a href=&quot;https://www.politsei.ee&quot;&gt;&lt;span style=&quot;color: #006EB5; text-decoration: none;&quot;&gt;klienditeeninduspunkti&lt;/span&gt;&lt;/a&gt; poole.</translation>
     </message>
     <message>
         <source>To unblock the certificate you have to enter the PUK code.</source>
-        <translation>Sertifikaadi blokeeringu tühistamiseks sisesta kaardi PUK-kood.</translation>
+        <translation>Lukustunud võtme päkapiku südamesse saab uue teha Jõuluvana juures koos päkapiku salavõtmega.</translation>
     </message>
     <message>
         <source>You can find your PUK code inside the ID-card codes envelope.</source>
-        <translation>PUK-koodi leiad ID-kaardi koodiümbrikus, kui sa pole seda vahepeal muutnud.</translation>
+        <translation>Päkapiku salvõtme leiad Jõuluvana kirjakastist, kui sa pole seda vahepeal muutnud.</translation>
     </message>
     <message>
         <source>If you have forgotten the PUK code for your ID card, please visit &lt;a href=&quot;https://www.politsei.ee/en/&quot;&gt;&lt;span style=&quot;color: #006EB5; text-decoration: none;&quot;&gt;the Police and Border Guard Board service center&lt;/span&gt;&lt;/a&gt; to obtain new PIN codes.</source>
-        <translation>Kui sa oled unustanud enda ID-kaardi PUK-koodi, külasta &lt;a href=&quot;https://www.politsei.ee&quot;&gt;&lt;span style=&quot;color: #006EB5; text-decoration: none;&quot;&gt;Politsei- ja Piirivalve esindust&lt;/span&gt;&lt;/a&gt;, kus väljastatakse uus koodiümbrik.</translation>
+        <translation>Kui sa oled unustanud enda Jõuluvana antud päkapiku salavõtme, külasta &lt;a href=&quot;https://www.politsei.ee&quot;&gt;&lt;span style=&quot;color: #006EB5; text-decoration: none;&quot;&gt;Politsei- ja Piirivalve esindust&lt;/span&gt;&lt;/a&gt;, kus väljastatakse uus koodiümbrik.</translation>
     </message>
     <message>
         <source>PUK code is written in the envelope, that is given with the ID-card.</source>
-        <translation>PUK-koodi leiad ID-kaardi koodiümbrikus, kui sa pole seda vahepeal muutnud.</translation>
+        <translation>Päkapiku salvõtme leiad Jõuluvana kirjakastist, kui sa pole seda vahepeal muutnud.</translation>
     </message>
     <message>
         <source>If PIN%1 is inserted incorrectly 3 times the %2 certificate will be blocked and it will be impossible to use ID-card to %3, until it is unblocked via the PUK code.</source>
@@ -2151,7 +2151,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>If you have forgotten PIN%1, but know PUK, then here you can enter new PIN%1.</source>
-        <translation>Kui oled unustanud PIN%1-koodi, kuid tead PUK-koodi, siis siin saad määrata uue PIN%1-koodi.</translation>
+        <translation>Kui oled unustanud KÄPP%1-koodi, kuid tead Päkapiku salavõtit, siis siin saad määrata uue KÄPP%1-koodi.</translation>
     </message>
 </context>
 <context>
@@ -2323,7 +2323,7 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Authentication certificate is not selected.</source>
-        <translation>Isikutuvastamise sertifikaat ei ole valitud.</translation>
+        <translation>Võtit päkapiku südamesse ei ole valitud.</translation>
     </message>
     <message>
         <source>Failed to decrypt document</source>
@@ -2941,7 +2941,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>ROLE AND ADDRESS</source>
-        <translation>Paki saaja</translation>
+        <translation>Paki saaja;/translation>
     </message>
     <message>
         <source>The signature is technically correct, but it is based on the currently weak hash algorithm SHA-1, therefore it is not protected against forgery or alteration.</source>
@@ -3145,7 +3145,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Authentication certificate</source>
-        <translation>Isikutuvastamise sertifikaat</translation>
+        <translation>Võti päkapiku südamesse</translation>
     </message>
     <message>
         <source>UNBLOCK</source>
@@ -3173,19 +3173,19 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>PUK code</source>
-        <translation>PUK-kood</translation>
+        <translation>Päkapiku salavõti</translation>
     </message>
     <message>
         <source>The PUK code is located in your envelope</source>
-        <translation>PUK-kood asub Sinu koodiümbrikus</translation>
+        <translation>Päkapiku salavõti-kood asub Sinu südames</translation>
     </message>
     <message>
         <source>CHANGE PUK</source>
-        <translation>MUUDA PUK</translation>
+        <translation>MUUDA Päkapiku salavõtit</translation>
     </message>
     <message>
         <source>PUK code is blocked because the PUK code has been entered 3 times incorrectly. You can not unblock the PUK code yourself. As long as the PUK code is blocked, all eID options can be used, except PUK code. Please visit the service center to obtain new codes. &lt;a href=&quot;https://www.politsei.ee/en/instructions/applying-for-an-id-card-for-an-adult/reminders-for-id-card-holders/&quot;&gt;Additional information&lt;/a&gt;.</source>
-        <translation>PUK-kood on blokeeritud, kuna PUK-koodi on sisestatud 3 korda valesti. PUK-koodi ei saa ise lahti blokeerida. &lt;br&gt;&lt;br&gt;Kuigi PUK-kood on blokeeritud, saab kõiki eID võimalusi kasutada, välja arvatud PUK-koodi vajavaid. &lt;br&gt;&lt;br&gt;Uue PUK-koodi saamiseks külasta klienditeeninduspunkti, kust saad koodiümbriku uute koodidega. &lt;a href=&quot;https://www.politsei.ee/et/juhend/id-kaardi-taotlemine-taeiskasvanule/id-kaardi-kasutaja-meelespea/&quot;&gt;Lisainfo&lt;/a&gt;.</translation>
+        <translation>Päkapiku salavõti on blokeeritud, kuna Päkapiku salavõtit on sisestatud 3 korda valesti. Päkapiku salavõitit ei saa ise lahti blokeerida. &lt;br&gt;&lt;br&gt;Kuigi Päkapiku salavõti on blokeeritud, saab kõiki eID võimalusi kasutada, välja arvatud Päkapiku salavõti vajavaid. &lt;br&gt;&lt;br&gt;Uue Päkapiku salavõtme saamiseks külasta klienditeeninduspunkti, kust saad koodiümbriku uute koodidega. &lt;a href=&quot;https://www.politsei.ee/et/juhend/id-kaardi-taotlemine-taeiskasvanule/id-kaardi-kasutaja-meelespea/&quot;&gt;Lisainfo&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>PIN can be changed only using eToken utility</source>
@@ -3219,7 +3219,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Your ID-card authentication certificate is valid. </source>
-        <translation>Sinu Jõuluvana isikutuvastamise sertifikaat kehtib. </translation>
+        <translation>Sinu Jõuluvana võti päkapiku südamesse kehtib. </translation>
     </message>
     <message>
         <source>Your ID-card signing certificate is valid. </source>
@@ -3231,7 +3231,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Your ID-card authentication certificate is not valid. You need valid certificates to use your ID-card electronically. </source>
-        <translation>Sinu Jõuluvana isikutuvastamise sertifikaat ei kehti. Jõuluvana elektrooniliseks kasutamiseks on vaja kehtivaid sertifikaate. </translation>
+        <translation>Sinu Jõuluvana võti päkapiku südamesse ei kehti. Jõuluvana elektrooniliseks kasutamiseks on vaja kehtivaid sertifikaate. </translation>
     </message>
     <message>
         <source>Read more &lt;a href=&quot;https://www.id.ee/en/article/validity-of-id-card-certificates/&quot;&gt;here&lt;/a&gt;.</source>
