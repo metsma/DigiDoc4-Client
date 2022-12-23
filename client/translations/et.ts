@@ -1766,7 +1766,7 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Phone is not in coverage area</source>
-        <translation>Päkapikk on kadunud;/translation>
+        <translation>Päkapikk on kadunud </translation>
     </message>
     <message>
         <source>Request sending error</source>
@@ -2941,7 +2941,7 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>ROLE AND ADDRESS</source>
-        <translation>Paki saaja;/translation>
+        <translation>Paki saaja:</translation>
     </message>
     <message>
         <source>The signature is technically correct, but it is based on the currently weak hash algorithm SHA-1, therefore it is not protected against forgery or alteration.</source>
