@@ -1671,14 +1671,6 @@ ID-CARD</translation>
         <translation>Remember me</translation>
     </message>
     <message>
-        <source>CANCEL</source>
-        <translation>CANCEL</translation>
-    </message>
-    <message>
-        <source>SIGN</source>
-        <translation>SIGN</translation>
-    </message>
-    <message>
         <source>Personal code is not valid</source>
         <translation>Personal code is not valid</translation>
     </message>
@@ -1688,12 +1680,10 @@ ID-CARD</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Cancel</translation>
     </message>
     <message>
         <source>Sign</source>
-        <extracomment>accessible</extracomment>
         <translation>Sign</translation>
     </message>
     <message>
@@ -1963,18 +1953,6 @@ and enter Smart-ID PIN2-code.</translation>
 <context>
     <name>PinUnblock</name>
     <message>
-        <source>VALID PUK CODE</source>
-        <translation>CURRENT PUK CODE</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>CANCEL</translation>
-    </message>
-    <message>
-        <source>UNBLOCK</source>
-        <translation>UNBLOCK</translation>
-    </message>
-    <message>
         <source>PIN2 code is used to digitally sign documents.</source>
         <translation>PIN2 code is used to digitally sign documents.</translation>
     </message>
@@ -1989,22 +1967,6 @@ and enter Smart-ID PIN2-code.</translation>
     <message>
         <source>%1 code change</source>
         <translation>Change %1 code</translation>
-    </message>
-    <message>
-        <source>VALID %1 CODE</source>
-        <translation>CURRENT %1 CODE</translation>
-    </message>
-    <message>
-        <source>CHANGE</source>
-        <translation>CHANGE</translation>
-    </message>
-    <message>
-        <source>NEW %1 CODE</source>
-        <translation>NEW %1 CODE</translation>
-    </message>
-    <message>
-        <source>NEW %1 CODE AGAIN</source>
-        <translation>REPEAT NEW %1 CODE</translation>
     </message>
     <message>
         <source>PUK remaining attempts: %1</source>
@@ -2040,18 +2002,11 @@ and enter Smart-ID PIN2-code.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Cancel</translation>
     </message>
     <message>
         <source>Unblock</source>
-        <extracomment>accessible</extracomment>
         <translation>Unblock</translation>
-    </message>
-    <message>
-        <source>Valid puk code</source>
-        <extracomment>accessible</extracomment>
-        <translation>Valid puk code</translation>
     </message>
     <message>
         <source>PUK code is used for unblocking the certificates, when PIN1 or PIN2 has been entered 3 times incorrectly.</source>
@@ -2108,6 +2063,22 @@ and enter Smart-ID PIN2-code.</translation>
     <message>
         <source>%1 length has to be between %2 and 12</source>
         <translation>%1 length has to be between %2 and 12</translation>
+    </message>
+    <message>
+        <source>Valid %1 code</source>
+        <translation>Valid %1 code</translation>
+    </message>
+    <message>
+        <source>New %1 code</source>
+        <translation>New %1 code</translation>
+    </message>
+    <message>
+        <source>Repeat new %1 code</source>
+        <translation>Repeat new %1 code</translation>
+    </message>
+    <message>
+        <source>Current PUK code</source>
+        <translation>Current PUK code</translation>
     </message>
 </context>
 <context>
@@ -2925,14 +2896,6 @@ Additional licenses and components</translation>
 <context>
     <name>SmartIDDialog</name>
     <message>
-        <source>SIGN</source>
-        <translation>SIGN</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>CANCEL</translation>
-    </message>
-    <message>
         <source>Personal code</source>
         <translation>Personal code</translation>
     </message>
@@ -2966,12 +2929,10 @@ Additional licenses and components</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Cancel</translation>
     </message>
     <message>
         <source>Sign</source>
-        <extracomment>accessible</extracomment>
         <translation>Sign</translation>
     </message>
 </context>

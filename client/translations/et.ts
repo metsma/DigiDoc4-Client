@@ -1664,19 +1664,11 @@ ID-KAARDIGA</translation>
     <name>MobileDialog</name>
     <message>
         <source>Enter your phone number to sign with mobile-ID</source>
-        <translation>&lt;b&gt;Sisesta oma telefoninumber mobiil-IDga&lt;br/&gt;allkirjastamiseks&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Sisesta oma telefoninumber&lt;br/&gt;mobiil-IDga allkirjastamiseks&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Remember me</source>
         <translation>Pea mind meeles</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>KATKESTA</translation>
-    </message>
-    <message>
-        <source>SIGN</source>
-        <translation>ALLKIRJASTA</translation>
     </message>
     <message>
         <source>Personal code is not valid</source>
@@ -1688,12 +1680,10 @@ ID-KAARDIGA</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Katkesta</translation>
     </message>
     <message>
         <source>Sign</source>
-        <extracomment>accessible</extracomment>
         <translation>Allkirjastan</translation>
     </message>
     <message>
@@ -1963,18 +1953,6 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
 <context>
     <name>PinUnblock</name>
     <message>
-        <source>VALID PUK CODE</source>
-        <translation>KEHTIV PUK-KOOD</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>KATKESTA</translation>
-    </message>
-    <message>
-        <source>UNBLOCK</source>
-        <translation>BLOKEERI LAHTI</translation>
-    </message>
-    <message>
         <source>PIN2 code is used to digitally sign documents.</source>
         <translation>PIN2-koodi kasutatakse digitaalallkirja andmiseks.</translation>
     </message>
@@ -1989,22 +1967,6 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <message>
         <source>%1 code change</source>
         <translation>%1-koodi vahetus</translation>
-    </message>
-    <message>
-        <source>VALID %1 CODE</source>
-        <translation>KEHTIV %1-KOOD</translation>
-    </message>
-    <message>
-        <source>CHANGE</source>
-        <translation>MUUDA</translation>
-    </message>
-    <message>
-        <source>NEW %1 CODE</source>
-        <translation>UUS %1-KOOD</translation>
-    </message>
-    <message>
-        <source>NEW %1 CODE AGAIN</source>
-        <translation>UUS %1-KOOD UUESTI</translation>
     </message>
     <message>
         <source>PUK remaining attempts: %1</source>
@@ -2040,18 +2002,11 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Katkesta</translation>
     </message>
     <message>
         <source>Unblock</source>
-        <extracomment>accessible</extracomment>
         <translation>Blokeeri lahti</translation>
-    </message>
-    <message>
-        <source>Valid puk code</source>
-        <extracomment>accessible</extracomment>
-        <translation>Kehtiv puk kood</translation>
     </message>
     <message>
         <source>PUK code is used for unblocking the certificates, when PIN1 or PIN2 has been entered 3 times incorrectly.</source>
@@ -2108,6 +2063,22 @@ ja sisesta nutiseadmes Smart-ID PIN2-kood.</translation>
     <message>
         <source>%1 length has to be between %2 and 12</source>
         <translation>%1-koodi pikkus peab olema %2-12 numbrit</translation>
+    </message>
+    <message>
+        <source>Valid %1 code</source>
+        <translation>Kehtiv %1-kood</translation>
+    </message>
+    <message>
+        <source>New %1 code</source>
+        <translation>Uus %1-kood</translation>
+    </message>
+    <message>
+        <source>Repeat new %1 code</source>
+        <translation>Uus %1-kood uuesti</translation>
+    </message>
+    <message>
+        <source>Current PUK code</source>
+        <translation>Kehtiv PUK-kood</translation>
     </message>
 </context>
 <context>
@@ -2925,14 +2896,6 @@ Täiendavad litsentsid ja komponendid</translation>
 <context>
     <name>SmartIDDialog</name>
     <message>
-        <source>SIGN</source>
-        <translation>ALLKIRJASTA</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>KATKESTA</translation>
-    </message>
-    <message>
         <source>Personal code</source>
         <translation>Isikukood</translation>
     </message>
@@ -2966,12 +2929,10 @@ Täiendavad litsentsid ja komponendid</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Katkesta</translation>
     </message>
     <message>
         <source>Sign</source>
-        <extracomment>accessible</extracomment>
         <translation>Allkirjastan</translation>
     </message>
 </context>

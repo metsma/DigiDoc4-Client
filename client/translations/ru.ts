@@ -1672,14 +1672,6 @@ ID-КАРТОЙ</translation>
         <translation>Запомнить меня</translation>
     </message>
     <message>
-        <source>CANCEL</source>
-        <translation>ОТМЕНА</translation>
-    </message>
-    <message>
-        <source>SIGN</source>
-        <translation>ПОДПИСЬ</translation>
-    </message>
-    <message>
         <source>Personal code is not valid</source>
         <translation>Личный код недействителен</translation>
     </message>
@@ -1689,12 +1681,10 @@ ID-КАРТОЙ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Отмена</translation>
     </message>
     <message>
         <source>Sign</source>
-        <extracomment>accessible</extracomment>
         <translation>Подписать</translation>
     </message>
     <message>
@@ -1964,18 +1954,6 @@ and enter Smart-ID PIN2-code.</source>
 <context>
     <name>PinUnblock</name>
     <message>
-        <source>VALID PUK CODE</source>
-        <translation>ДЕЙСТВУЮЩИЙ PUK-КОД</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>ОТМЕНИТЬ</translation>
-    </message>
-    <message>
-        <source>UNBLOCK</source>
-        <translation>РАЗБЛОКИРОВАТЬ</translation>
-    </message>
-    <message>
         <source>PIN2 code is used to digitally sign documents.</source>
         <translation>PIN2-код используется для дигитальной подписи.</translation>
     </message>
@@ -1990,22 +1968,6 @@ and enter Smart-ID PIN2-code.</source>
     <message>
         <source>%1 code change</source>
         <translation>Замена %1-кода</translation>
-    </message>
-    <message>
-        <source>VALID %1 CODE</source>
-        <translation>ДЕЙСТВУЮЩИЙ %1-КОД</translation>
-    </message>
-    <message>
-        <source>CHANGE</source>
-        <translation>ПОМЕНЯТЬ</translation>
-    </message>
-    <message>
-        <source>NEW %1 CODE</source>
-        <translation>НОВЫЙ %1-КОД</translation>
-    </message>
-    <message>
-        <source>NEW %1 CODE AGAIN</source>
-        <translation>НОВЫЙ %1-КОД ЗАНОВО</translation>
     </message>
     <message>
         <source>PUK remaining attempts: %1</source>
@@ -2041,18 +2003,11 @@ and enter Smart-ID PIN2-code.</source>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Отмена</translation>
     </message>
     <message>
         <source>Unblock</source>
-        <extracomment>accessible</extracomment>
         <translation>Разблокировать</translation>
-    </message>
-    <message>
-        <source>Valid puk code</source>
-        <extracomment>accessible</extracomment>
-        <translation>Действующий puk код</translation>
     </message>
     <message>
         <source>PUK code is used for unblocking the certificates, when PIN1 or PIN2 has been entered 3 times incorrectly.</source>
@@ -2109,6 +2064,22 @@ and enter Smart-ID PIN2-code.</source>
     <message>
         <source>%1 length has to be between %2 and 12</source>
         <translation>Длина %1 должна быть %2-12 номера</translation>
+    </message>
+    <message>
+        <source>Valid %1 code</source>
+        <translation>Действующий %1-код</translation>
+    </message>
+    <message>
+        <source>New %1 code</source>
+        <translation>Новый %1-код</translation>
+    </message>
+    <message>
+        <source>Repeat new %1 code</source>
+        <translation>Новый %1-код заново</translation>
+    </message>
+    <message>
+        <source>Current PUK code</source>
+        <translation>Действующий PUK-код</translation>
     </message>
 </context>
 <context>
@@ -2926,14 +2897,6 @@ Additional licenses and components</source>
 <context>
     <name>SmartIDDialog</name>
     <message>
-        <source>SIGN</source>
-        <translation>ПОДПИСАТЬ</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>ОТМЕНА</translation>
-    </message>
-    <message>
         <source>Personal code</source>
         <translation>Личный код</translation>
     </message>
@@ -2967,12 +2930,10 @@ Additional licenses and components</source>
     </message>
     <message>
         <source>Cancel</source>
-        <extracomment>accessible</extracomment>
         <translation>Отмена</translation>
     </message>
     <message>
         <source>Sign</source>
-        <extracomment>accessible</extracomment>
         <translation>Подписать</translation>
     </message>
 </context>
