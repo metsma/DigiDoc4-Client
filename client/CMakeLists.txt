@@ -266,8 +266,9 @@ elseif(WIN32)
 	add_custom_target(appx DEPENDS ${PROJECT_NAME}
 		COMMAND ${CMAKE_COMMAND} -E remove ${MSI_FILE}.appx
 		COMMAND ${CMAKE_COMMAND} -E remove_directory appx
-		COMMAND ${CMAKE_COMMAND} -E make_directory appx
+		COMMAND ${CMAKE_COMMAND} -E make_directory appx/Strings/en-US
 		COMMAND ${CMAKE_COMMAND} -E copy AppxManifest.xml appx
+        COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_SOURCE_DIR}/Resources.resw appx/Strings/en-US
 		COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${PROJECT_NAME}> appx
 		COMMAND ${CMAKE_COMMAND} -E copy ${LIBS_PATH}/libcrypto-3${OPENSSL_SUFFIX}.dll appx
 		COMMAND ${CMAKE_COMMAND} -E copy ${LIBS_PATH}/libssl-3${OPENSSL_SUFFIX}.dll appx
@@ -277,9 +278,9 @@ elseif(WIN32)
 		COMMAND ${CMAKE_COMMAND} -E copy ${LIBS_PATH}/libxmlsec1-openssl.dll appx
 		COMMAND ${CMAKE_COMMAND} -E copy ${LIBS_PATH}/digidocpp.dll appx
 		COMMAND ${CMAKE_COMMAND} -E copy ${LIBS_PATH}/digidocpp.conf appx
-		COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/Assets appx/Assets
+        COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/Assets appx/Assets
 		COMMAND ${CMAKE_COMMAND} -E copy_directory ${LIBS_PATH}/schema appx/schema
-		COMMAND ${qtCore_install_prefix}/windeployqt --no-translations --no-compiler-runtime --no-patchqt appx
+        COMMAND ${qtCore_install_prefix}/windeployqt --no-translations --no-compiler-runtime --no-patchqt appx
 		COMMAND ${CMAKE_COMMAND} -E remove_directory appx/bearer
 		COMMAND makeappx.exe pack -d appx -p ${MSI_FILE}.appx
 		# https://msdn.microsoft.com/en-us/library/windows/desktop/jj835832(v=vs.85).aspx

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources xmlns="http://schemas.microsoft.com/Resources/2006">
+    <data name="DigiDoc4" xml:space="preserve">
+        <value>DigiDoc4</value>
+    </data>
+    <data name="RIA" xml:space="preserve">
+        <value>Riigi Infosüsteemi Amet</value>
+    </data>
+    <data name="DigiDocSignedDocument" xml:space="preserve">
+        <value>DigiDoc signed document</value>
+    </data>
+    <data name="DigiDocEncryptedContainer" xml:space="preserve">
+        <value>DigiDoc encrypted container</value>
+    </data>
+</Resources>

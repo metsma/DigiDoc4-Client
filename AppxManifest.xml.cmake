@@ -6,8 +6,8 @@
   <Identity Name="RiigiInfossteemiAmet.DigiDoc4client" ProcessorArchitecture="${PLATFORM}" Version="${PROJECT_VERSION}.0"
     Publisher="CN=8BBBE4D8-620A-4884-A12A-72F1A2030D8B" />
   <Properties>
-    <DisplayName>DigiDoc4 Client</DisplayName>
-    <PublisherDisplayName>Riigi Infosüsteemi Amet</PublisherDisplayName>
+    <DisplayName>ms-resource:DigiDoc4</DisplayName>
+    <PublisherDisplayName>ms-resource:RIA</PublisherDisplayName>
     <Logo>Assets\DigiDoc.50x50.png</Logo>
   </Properties>
   <Resources>
@@ -23,12 +23,12 @@
   </Capabilities>
   <Applications>
     <Application Id="DigiDoc4" Executable="qdigidoc4.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="DigiDoc4" Description="DigiDoc4" BackgroundColor="#00355f"
+      <uap:VisualElements DisplayName="ms-resource:DigiDoc4" Description="ms-resource:DigiDoc4" BackgroundColor="#00355f"
         Square150x150Logo="Assets\DigiDoc.150x150.png" Square44x44Logo="Assets\DigiDoc.44x44.png" />
       <Extensions>
         <uap3:Extension Category="windows.fileTypeAssociation">
           <uap3:FileTypeAssociation Name="asice" Parameters="&quot;%1&quot;">
-            <uap:DisplayName>DigiDoc signed document</uap:DisplayName>
+            <uap:DisplayName>ms-resource:DigiDocSignedDocument</uap:DisplayName>
             <uap:Logo>Assets\qdigidoc_client_document_256x256.png</uap:Logo>
             <uap:SupportedFileTypes>
               <uap:FileType>.adoc</uap:FileType>
@@ -44,7 +44,7 @@
         </uap3:Extension>
         <uap3:Extension Category="windows.fileTypeAssociation">
           <uap3:FileTypeAssociation Name="cdoc" Parameters="-crypto &quot;%1&quot;">
-            <uap:DisplayName>DigiDoc encrypted container</uap:DisplayName>
+            <uap:DisplayName>ms-resource:DigiDocEncryptedContainer</uap:DisplayName>
             <uap:Logo>Assets\qdigidoc_crypto_document_256x256.png</uap:Logo>
             <uap:SupportedFileTypes>
               <uap:FileType>.cdoc</uap:FileType>
