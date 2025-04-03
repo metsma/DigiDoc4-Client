@@ -45,7 +45,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.quicklook.preview</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>PreviewProvider</string>
+		<string>DigiDocQL.PreviewProvider</string>
 	</dict>
 </dict>
 </plist>
