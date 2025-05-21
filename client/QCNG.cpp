@@ -221,6 +221,7 @@ QList<TokenData> QCNG::tokens() const
 					reader = QString::fromUtf16((const char16_t*)tmp.data());
 			}
 			QString guid = prop(h, NCRYPT_SMARTCARD_GUID_PROPERTY).trimmed();
+			qDebug() << guid << reader << cert;
 			TokenData &t = result.emplaceBack();
 			t.setReader(reader);
 			t.setCard(cert.type() & SslCertificate::EstEidType || cert.type() & SslCertificate::DigiIDType ?
