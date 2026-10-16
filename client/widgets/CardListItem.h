@@ -19,7 +19,10 @@ public:
 
 	TokenData token() const;
 	void refresh();
-	void update(const TokenData &token, bool selected);
+	// reason: QT_TRANSLATE_NOOP("CardListItem", ...) why the card cannot be used, shown in
+	// place of its validity; translated here, so it follows language changes. A card is
+	// usable when its certificate is valid, its PIN not blocked and there is no reason.
+	void update(const TokenData &token, bool selected, const char *reason = nullptr);
 
 signals:
 	void selected(const TokenData &token);
@@ -31,4 +34,5 @@ protected:
 private:
 	Ui::CardListItem *ui;
 	TokenData t;
+	const char *reason = nullptr;
 };

@@ -131,6 +131,10 @@
         <translation>Mittetoetatud krüptograafiline algoritm või adressaadi tüüp</translation>
     </message>
     <message>
+        <source>Mobile-ID / Smart-ID</source>
+        <translation>Mobiil-ID / Smart-ID</translation>
+    </message>
+    <message>
         <source>pw</source>
         <translation>Parool</translation>
     </message>
@@ -254,6 +258,10 @@
     <message>
         <source>Valid to</source>
         <translation>Kehtib kuni</translation>
+    </message>
+    <message>
+        <source>This card cannot decrypt the container</source>
+        <translation>Selle kaardiga ei saa dekrüpteerida</translation>
     </message>
 </context>
 <context>
@@ -647,6 +655,89 @@
     <message>
         <source>Cannot read file.</source>
         <translation>Faili ei saa lugeda.</translation>
+    </message>
+</context>
+<context>
+    <name>DecryptionDialog</name>
+    <message>
+        <source>Decrypt document</source>
+        <translation>Dekrüpteeri dokument</translation>
+    </message>
+    <message>
+        <source>Decryption</source>
+        <translation>Dekrüpteerimine</translation>
+    </message>
+    <message>
+        <source>Select the certificate to decrypt with</source>
+        <translation>Vali sertifikaat, millega dekrüpteerida</translation>
+    </message>
+    <message>
+        <source>No card in reader</source>
+        <translation>Lugejas ei ole kaarti; kontrolli, kas ID-kaart on õiget pidi lugejas</translation>
+    </message>
+    <message>
+        <source>Enter PIN1 code</source>
+        <translation>Sisesta PIN1-kood</translation>
+    </message>
+    <message>
+        <source>Country code and phone number</source>
+        <translation>Riigikood ja telefoninumber</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Katkesta</translation>
+    </message>
+    <message>
+        <source>Decrypt</source>
+        <translation>Dekrüpteeri</translation>
+    </message>
+    <message>
+        <source>Control code:</source>
+        <translation>Kontrollkood:</translation>
+    </message>
+    <message>
+        <source>ID-card</source>
+        <translation>ID-kaart</translation>
+    </message>
+    <message>
+        <source>Mobile-ID</source>
+        <translation>Mobiil-ID</translation>
+    </message>
+    <message>
+        <source>Smart-ID</source>
+        <translation>Smart-ID</translation>
+    </message>
+    <message>
+        <source>Confirm decryption: make sure the control code matches the one on your phone screen and enter your Mobile-ID PIN1.</source>
+        <translation>Kinnita dekrüpteerimine: veendu kontrollkoodi õigsuses ja sisesta telefonil mobiil-ID PIN1-kood.</translation>
+    </message>
+    <message>
+        <source>Log in: make sure the control code matches the one on your phone screen and enter your Mobile-ID PIN1.</source>
+        <translation>Logi sisse: veendu kontrollkoodi õigsuses ja sisesta telefonil mobiil-ID PIN1-kood.</translation>
+    </message>
+    <message>
+        <source>Confirm decryption: make sure the control code matches the one in your Smart-ID app and enter your PIN1.</source>
+        <translation>Kinnita dekrüpteerimine: veendu kontrollkoodi õigsuses ja sisesta nutiseadmes Smart-ID PIN1-kood.</translation>
+    </message>
+    <message>
+        <source>Log in: make sure the control code matches the one in your Smart-ID app and enter your PIN1.</source>
+        <translation>Logi sisse: veendu kontrollkoodi õigsuses ja sisesta nutiseadmes Smart-ID PIN1-kood.</translation>
+    </message>
+    <message>
+        <source>The PCSC service, required for using the ID-card, is not working. Check your computer settings.</source>
+        <translation>ID-kaardi kasutamiseks vajalik PCSC teenus ei tööta. Kontrolli arvuti seadeid.</translation>
+    </message>
+    <message>
+        <source>No readers found</source>
+        <translation>Ühtegi kiipkaardilugejat pole ühendatud</translation>
+    </message>
+    <message>
+        <source>Failed to decrypt document</source>
+        <translation>Dokumendi dekrüpteerimine ebaõnnestus</translation>
+    </message>
+    <message>
+        <source>Decrypting</source>
+        <translation>Dekrüpteerin</translation>
     </message>
 </context>
 <context>

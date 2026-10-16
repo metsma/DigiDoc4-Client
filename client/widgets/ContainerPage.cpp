@@ -27,8 +27,8 @@
 #include "QCryptoBackend.h"
 #include "Settings.h"
 #include "SslCertificate.h"
-#include "TokenData.h"
 #include "dialogs/AddRecipients.h"
+#include "dialogs/DecryptionDialog.h"
 #include "dialogs/FileDialog.h"
 #include "dialogs/PasswordDialog.h"
 #include "dialogs/WarningDialog.h"
@@ -275,10 +275,12 @@ void ContainerPage::transition(CryptoDoc *container)
 	ui->rightPane->init(ItemList::ItemAddress, QT_TRANSLATE_NOOP("ItemList", "Recipients"));
 	bool hasUnsupported = false;
 	for (const auto &key : container->keys()) {
-		hasUnsupported = hasUnsupported || (key.rcpt_cert.isNull() && !key.lock.isValid());
+		// libcdoc writes no label for a key share, which isValid() requires
+		hasUnsupported = hasUnsupported || (key.rcpt_cert.isNull() && !key.lock.isValid() &&
+			key.lock.type != libcdoc::Lock::SHARE_SERVER);
 		auto *addr = new AddressItem(key, AddressItem::Icon, ui->rightPane);
 		ui->rightPane->addWidget(addr);
-		connect(addr, &AddressItem::decrypt, container, [container, key, this](const TokenData &token) {
+		connect(addr, &AddressItem::decrypt, container, [container, key, addr, this] {
 			if (key.lock.type == libcdoc::Lock::Type::PASSWORD) {
 				PasswordDialog p(PasswordDialog::Mode::DECRYPT, this);
 				auto params = libcdoc::Lock::parseLabel(key.lock.label);
@@ -287,13 +289,9 @@ void ContainerPage::transition(CryptoDoc *container)
 					return;
 				decrypt(container, key.lock, p.secret(), {});
 			}
-			else if(auto val = QCryptoBackend::getBackend(token))
-				decrypt(container, key.lock, {}, std::unique_ptr<QCryptoBackend>(val.value()));
-			else if(val.error() != QCryptoBackend::PinCanceled) {
-				WarningDialog::create(this)
-					->withTitle(tr("Failed to decrypt document"))
-					->withText(QCryptoBackend::errorString(val.error()))
-					->exec();
+			else if(DecryptionDialog(container, key, addr->name(), this).exec()) {
+				transition(container);
+				emit action(DecryptContainerSuccess);
 			}
 		});
 	}

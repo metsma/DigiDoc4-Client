@@ -131,6 +131,10 @@
         <translation>Unsupported cryptographic algorithm or recipient type</translation>
     </message>
     <message>
+        <source>Mobile-ID / Smart-ID</source>
+        <translation>Mobile-ID / Smart-ID</translation>
+    </message>
+    <message>
         <source>pw</source>
         <translation>Password</translation>
     </message>
@@ -254,6 +258,10 @@
     <message>
         <source>Valid to</source>
         <translation>Valid to</translation>
+    </message>
+    <message>
+        <source>This card cannot decrypt the container</source>
+        <translation>This card cannot decrypt the container</translation>
     </message>
 </context>
 <context>
@@ -647,6 +655,89 @@
     <message>
         <source>Cannot read file.</source>
         <translation>Cannot read file.</translation>
+    </message>
+</context>
+<context>
+    <name>DecryptionDialog</name>
+    <message>
+        <source>Decrypt document</source>
+        <translation>Decrypt document</translation>
+    </message>
+    <message>
+        <source>Decryption</source>
+        <translation>Decryption</translation>
+    </message>
+    <message>
+        <source>Select the certificate to decrypt with</source>
+        <translation>Select the certificate to decrypt with</translation>
+    </message>
+    <message>
+        <source>No card in reader</source>
+        <translation>No card in reader</translation>
+    </message>
+    <message>
+        <source>Enter PIN1 code</source>
+        <translation>Enter PIN1 code</translation>
+    </message>
+    <message>
+        <source>Country code and phone number</source>
+        <translation>Country code and phone number</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>Decrypt</source>
+        <translation>Decrypt</translation>
+    </message>
+    <message>
+        <source>Control code:</source>
+        <translation>Control code:</translation>
+    </message>
+    <message>
+        <source>ID-card</source>
+        <translation>ID-card</translation>
+    </message>
+    <message>
+        <source>Mobile-ID</source>
+        <translation>Mobile-ID</translation>
+    </message>
+    <message>
+        <source>Smart-ID</source>
+        <translation>Smart-ID</translation>
+    </message>
+    <message>
+        <source>Confirm decryption: make sure the control code matches the one on your phone screen and enter your Mobile-ID PIN1.</source>
+        <translation>Confirm decryption: make sure the control code matches the one on your phone screen and enter your Mobile-ID PIN1.</translation>
+    </message>
+    <message>
+        <source>Log in: make sure the control code matches the one on your phone screen and enter your Mobile-ID PIN1.</source>
+        <translation>Log in: make sure the control code matches the one on your phone screen and enter your Mobile-ID PIN1.</translation>
+    </message>
+    <message>
+        <source>Confirm decryption: make sure the control code matches the one in your Smart-ID app and enter your PIN1.</source>
+        <translation>Confirm decryption: make sure the control code matches the one in your Smart-ID app and enter your PIN1.</translation>
+    </message>
+    <message>
+        <source>Log in: make sure the control code matches the one in your Smart-ID app and enter your PIN1.</source>
+        <translation>Log in: make sure the control code matches the one in your Smart-ID app and enter your PIN1.</translation>
+    </message>
+    <message>
+        <source>The PCSC service, required for using the ID-card, is not working. Check your computer settings.</source>
+        <translation>The PCSC service, required for using the ID-card, is not working. Check your computer settings.</translation>
+    </message>
+    <message>
+        <source>No readers found</source>
+        <translation>No readers found</translation>
+    </message>
+    <message>
+        <source>Failed to decrypt document</source>
+        <translation>Failed to decrypt document</translation>
+    </message>
+    <message>
+        <source>Decrypting</source>
+        <translation>Decrypting</translation>
     </message>
 </context>
 <context>
