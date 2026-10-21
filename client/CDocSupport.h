@@ -50,6 +50,9 @@
 struct DDConfiguration : public libcdoc::Configuration {
 	std::string getValue(std::string_view domain,
 						 std::string_view param) const final;
+	// The default key server's CDOC2-CONF entry, when it lists the two key share
+	// servers libcdoc needs to encrypt for Mobile-ID / Smart-ID; empty otherwise
+	static std::string defaultShareServer();
 	// Mobile-ID / Smart-ID decryption: Configuration::SHARE_SIGNER_MID or
 	// SHARE_SIGNER_SID, the Mobile-ID phone number, and the lock's share servers
 	// (Lock::SHARE_URLS) that select the CDOC2-CONF entry
