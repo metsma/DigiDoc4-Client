@@ -229,17 +229,13 @@ void ContainerPage::transition(CryptoDoc *container)
 		if(!dlg.exec() || !dlg.isUpdated())
 			return;
 		container->clearKeys();
-		ui->rightPane->clear();
 		for(auto &key: dlg.keys())
-		{
 			container->addEncryptionKey(key);
-			ui->rightPane->addWidget(new AddressItem(key, AddressItem::Icon, ui->rightPane));
-		}
+		showRecipients(container);
 		mainAction->setEnabled(isEncryptEnabled(container));
 	});
 	disconnect(ui->rightPane, &ItemList::removed, container, nullptr);
 	connect(ui->rightPane, &ItemList::removed, container, [this, container](int index) {
-		container->removeKey(index);
 		ui->rightPane->removeItem(index);
 		mainAction->setEnabled(isEncryptEnabled(container));
 	});
@@ -273,13 +269,37 @@ void ContainerPage::transition(CryptoDoc *container)
 	setHeader(container->fileName());
 	ui->leftPane->init(fileName, QT_TRANSLATE_NOOP("ItemList", "Encrypted files"));
 	ui->rightPane->init(ItemList::ItemAddress, QT_TRANSLATE_NOOP("ItemList", "Recipients"));
-	bool hasUnsupported = false;
-	for (const auto &key : container->keys()) {
+	showRecipients(container);
+	if(std::ranges::any_of(container->keys(), [](const CKey &key) {
 		// libcdoc writes no label for a key share, which isValid() requires
-		hasUnsupported = hasUnsupported || (key.rcpt_cert.isNull() && !key.lock.isValid() &&
-			key.lock.type != libcdoc::Lock::SHARE_SERVER);
+		return key.rcpt_cert.isNull() && !key.lock.isValid() && key.lock.type != libcdoc::Lock::SHARE_SERVER;
+	}))
+		emit warning({WarningText::UnsupportedCDocWarning});
+	ui->leftPane->setModel(container->documentModel());
+	updatePanes(container->state(), container);
+}
+
+void ContainerPage::showRecipients(CryptoDoc *container)
+{
+	ui->rightPane->clear();
+	// One row per person, so e.g. their ID-card and Digi-ID share one Decrypt
+	// button, or are removed together before encrypting.
+	QHash<QString, AddressItem*> people;
+	for (const auto &key : container->keys()) {
+		QString code = key.personalCode();
+		if(AddressItem *person = people.value(code)) {
+			person->addKey(key);
+			continue;
+		}
 		auto *addr = new AddressItem(key, AddressItem::Icon, ui->rightPane);
+		// A row is a person and takes all their keys with it. Connected ahead of
+		// the pane, whose removed() handler then sees the keys already gone.
+		connect(addr, &AddressItem::remove, container, [container, addr] {
+			container->removeKeys(addr->keys());
+		});
 		ui->rightPane->addWidget(addr);
+		if(!code.isEmpty())
+			people.insert(code, addr);
 		connect(addr, &AddressItem::decrypt, container, [container, key, addr, this] {
 			if (key.lock.type == libcdoc::Lock::Type::PASSWORD) {
 				PasswordDialog p(PasswordDialog::Mode::DECRYPT, this);
@@ -289,16 +309,12 @@ void ContainerPage::transition(CryptoDoc *container)
 					return;
 				decrypt(container, key.lock, p.secret(), {});
 			}
-			else if(DecryptionDialog(container, key, addr->name(), this).exec()) {
+			else if(DecryptionDialog(container, addr->keys(), addr->name(), this).exec()) {
 				transition(container);
 				emit action(DecryptContainerSuccess);
 			}
 		});
 	}
-	if(hasUnsupported)
-		emit warning({WarningText::UnsupportedCDocWarning});
-	ui->leftPane->setModel(container->documentModel());
-	updatePanes(container->state(), container);
 }
 
 void ContainerPage::transition(DigiDoc* container)
